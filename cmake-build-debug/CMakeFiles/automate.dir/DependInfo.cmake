@@ -14,8 +14,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/Projects/automate/src/GACore.cpp" "CMakeFiles/automate.dir/src/GACore.cpp.obj" "gcc" "CMakeFiles/automate.dir/src/GACore.cpp.obj.d"
   "D:/Projects/automate/src/draw.cpp" "CMakeFiles/automate.dir/src/draw.cpp.obj" "gcc" "CMakeFiles/automate.dir/src/draw.cpp.obj.d"
   "D:/Projects/automate/src/engine.cpp" "CMakeFiles/automate.dir/src/engine.cpp.obj" "gcc" "CMakeFiles/automate.dir/src/engine.cpp.obj.d"
+  "D:/Projects/automate/src/hw.cpp" "CMakeFiles/automate.dir/src/hw.cpp.obj" "gcc" "CMakeFiles/automate.dir/src/hw.cpp.obj.d"
   "D:/Projects/automate/src/input.cpp" "CMakeFiles/automate.dir/src/input.cpp.obj" "gcc" "CMakeFiles/automate.dir/src/input.cpp.obj.d"
-  "D:/Projects/automate/src/main.cpp" "CMakeFiles/automate.dir/src/main.cpp.obj" "gcc" "CMakeFiles/automate.dir/src/main.cpp.obj.d"
   "D:/Projects/automate/src/settings.cpp" "CMakeFiles/automate.dir/src/settings.cpp.obj" "gcc" "CMakeFiles/automate.dir/src/settings.cpp.obj.d"
   "D:/Projects/automate/src/settings_window.cpp" "CMakeFiles/automate.dir/src/settings_window.cpp.obj" "gcc" "CMakeFiles/automate.dir/src/settings_window.cpp.obj.d"
   )

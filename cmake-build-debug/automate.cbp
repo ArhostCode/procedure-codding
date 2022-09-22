@@ -132,10 +132,10 @@
 		<Unit filename="D:/Projects/automate/src/engine.cpp">
 			<Option target="automate"/>
 		</Unit>
-		<Unit filename="D:/Projects/automate/src/input.cpp">
+		<Unit filename="D:/Projects/automate/src/hw.cpp">
 			<Option target="automate"/>
 		</Unit>
-		<Unit filename="D:/Projects/automate/src/main.cpp">
+		<Unit filename="D:/Projects/automate/src/input.cpp">
 			<Option target="automate"/>
 		</Unit>
 		<Unit filename="D:/Projects/automate/src/settings.cpp">

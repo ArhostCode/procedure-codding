@@ -272,6 +272,30 @@ src/engine.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\automate.dir\build.make CMakeFiles/automate.dir/src/engine.cpp.s
 .PHONY : src/engine.cpp.s
 
+src/hw.obj: src/hw.cpp.obj
+.PHONY : src/hw.obj
+
+# target to build an object file
+src/hw.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\automate.dir\build.make CMakeFiles/automate.dir/src/hw.cpp.obj
+.PHONY : src/hw.cpp.obj
+
+src/hw.i: src/hw.cpp.i
+.PHONY : src/hw.i
+
+# target to preprocess a source file
+src/hw.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\automate.dir\build.make CMakeFiles/automate.dir/src/hw.cpp.i
+.PHONY : src/hw.cpp.i
+
+src/hw.s: src/hw.cpp.s
+.PHONY : src/hw.s
+
+# target to generate assembly for a file
+src/hw.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\automate.dir\build.make CMakeFiles/automate.dir/src/hw.cpp.s
+.PHONY : src/hw.cpp.s
+
 src/input.obj: src/input.cpp.obj
 .PHONY : src/input.obj
 
@@ -295,30 +319,6 @@ src/input.s: src/input.cpp.s
 src/input.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\automate.dir\build.make CMakeFiles/automate.dir/src/input.cpp.s
 .PHONY : src/input.cpp.s
-
-src/main.obj: src/main.cpp.obj
-.PHONY : src/main.obj
-
-# target to build an object file
-src/main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\automate.dir\build.make CMakeFiles/automate.dir/src/main.cpp.obj
-.PHONY : src/main.cpp.obj
-
-src/main.i: src/main.cpp.i
-.PHONY : src/main.i
-
-# target to preprocess a source file
-src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\automate.dir\build.make CMakeFiles/automate.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
-
-src/main.s: src/main.cpp.s
-.PHONY : src/main.s
-
-# target to generate assembly for a file
-src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\automate.dir\build.make CMakeFiles/automate.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
 
 src/settings.obj: src/settings.cpp.obj
 .PHONY : src/settings.obj
@@ -395,12 +395,12 @@ help:
 	@echo ... src/engine.obj
 	@echo ... src/engine.i
 	@echo ... src/engine.s
+	@echo ... src/hw.obj
+	@echo ... src/hw.i
+	@echo ... src/hw.s
 	@echo ... src/input.obj
 	@echo ... src/input.i
 	@echo ... src/input.s
-	@echo ... src/main.obj
-	@echo ... src/main.i
-	@echo ... src/main.s
 	@echo ... src/settings.obj
 	@echo ... src/settings.i
 	@echo ... src/settings.s

@@ -68,20 +68,20 @@ include CMakeFiles/automate.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/automate.dir/flags.make
 
-CMakeFiles/automate.dir/src/main.cpp.obj: CMakeFiles/automate.dir/flags.make
-CMakeFiles/automate.dir/src/main.cpp.obj: CMakeFiles/automate.dir/includes_CXX.rsp
-CMakeFiles/automate.dir/src/main.cpp.obj: ../src/main.cpp
-CMakeFiles/automate.dir/src/main.cpp.obj: CMakeFiles/automate.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\automate\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/automate.dir/src/main.cpp.obj"
-	"D:\Programm Files\apps\CLion\ch-0\222.4167.35\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/automate.dir/src/main.cpp.obj -MF CMakeFiles\automate.dir\src\main.cpp.obj.d -o CMakeFiles\automate.dir\src\main.cpp.obj -c D:\Projects\automate\src\main.cpp
+CMakeFiles/automate.dir/src/hw.cpp.obj: CMakeFiles/automate.dir/flags.make
+CMakeFiles/automate.dir/src/hw.cpp.obj: CMakeFiles/automate.dir/includes_CXX.rsp
+CMakeFiles/automate.dir/src/hw.cpp.obj: ../src/hw.cpp
+CMakeFiles/automate.dir/src/hw.cpp.obj: CMakeFiles/automate.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\automate\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/automate.dir/src/hw.cpp.obj"
+	"D:\Programm Files\apps\CLion\ch-0\222.4167.35\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/automate.dir/src/hw.cpp.obj -MF CMakeFiles\automate.dir\src\hw.cpp.obj.d -o CMakeFiles\automate.dir\src\hw.cpp.obj -c D:\Projects\automate\src\hw.cpp
 
-CMakeFiles/automate.dir/src/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/automate.dir/src/main.cpp.i"
-	"D:\Programm Files\apps\CLion\ch-0\222.4167.35\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Projects\automate\src\main.cpp > CMakeFiles\automate.dir\src\main.cpp.i
+CMakeFiles/automate.dir/src/hw.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/automate.dir/src/hw.cpp.i"
+	"D:\Programm Files\apps\CLion\ch-0\222.4167.35\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Projects\automate\src\hw.cpp > CMakeFiles\automate.dir\src\hw.cpp.i
 
-CMakeFiles/automate.dir/src/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/automate.dir/src/main.cpp.s"
-	"D:\Programm Files\apps\CLion\ch-0\222.4167.35\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Projects\automate\src\main.cpp -o CMakeFiles\automate.dir\src\main.cpp.s
+CMakeFiles/automate.dir/src/hw.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/automate.dir/src/hw.cpp.s"
+	"D:\Programm Files\apps\CLion\ch-0\222.4167.35\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Projects\automate\src\hw.cpp -o CMakeFiles\automate.dir\src\hw.cpp.s
 
 CMakeFiles/automate.dir/src/engine.cpp.obj: CMakeFiles/automate.dir/flags.make
 CMakeFiles/automate.dir/src/engine.cpp.obj: CMakeFiles/automate.dir/includes_CXX.rsp
@@ -220,7 +220,7 @@ CMakeFiles/automate.dir/src/Button.cpp.s: cmake_force
 
 # Object files for target automate
 automate_OBJECTS = \
-"CMakeFiles/automate.dir/src/main.cpp.obj" \
+"CMakeFiles/automate.dir/src/hw.cpp.obj" \
 "CMakeFiles/automate.dir/src/engine.cpp.obj" \
 "CMakeFiles/automate.dir/src/draw.cpp.obj" \
 "CMakeFiles/automate.dir/src/input.cpp.obj" \
@@ -234,7 +234,7 @@ automate_OBJECTS = \
 # External object files for target automate
 automate_EXTERNAL_OBJECTS =
 
-automate.exe: CMakeFiles/automate.dir/src/main.cpp.obj
+automate.exe: CMakeFiles/automate.dir/src/hw.cpp.obj
 automate.exe: CMakeFiles/automate.dir/src/engine.cpp.obj
 automate.exe: CMakeFiles/automate.dir/src/draw.cpp.obj
 automate.exe: CMakeFiles/automate.dir/src/input.cpp.obj

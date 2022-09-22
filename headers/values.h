@@ -8,8 +8,8 @@
 
 class values {
 public:
-    static const int POP_COUNT = 50;
-    static const int GEN_COUNT = 500;
+    static const int POP_COUNT = 100;
+    static const int GEN_COUNT = 100;
     static const int GEN_BEST_COUNT = 100;
     static const int MUTATION_RATE = 100;
     static const int MUTATION_BEST_RATE = 500;
