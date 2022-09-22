@@ -11,9 +11,9 @@ using namespace std;
 
 void hw41() {
     cout << "Введите 10 чисел\n";
-    int a[10];
+    double a[10];
     for (int i = 0; i < 10; i++) {
-        int k = 0;
+        double k = 0;
         cin >> k;
         a[i] = k;
     }
@@ -29,8 +29,8 @@ void hw41() {
 
     ifstream ifile;
     ifile.open("41.txt");
-    int sum = 0;
-    int c = 0;
+    double sum = 0;
+    double c = 0;
 
     while (ifile >> c) {
         sum += c;
@@ -230,9 +230,13 @@ void hw48() {
             }
         }
     }
+    int who_p_min = 0;
+    int who_p_max = 0;
     double min_p = 9999;
     double max_p = -9999;
 
+    int who_k_min = 0;
+    int who_k_max = 0;
     double min_k = 9999;
     double max_k = -9999;
 
@@ -246,16 +250,20 @@ void hw48() {
         double k = res[i][1];
         if (pk < min_p) {
             min_p = pk;
+            who_p_min = i + 1;
         }
         if (pk > max_p) {
             max_p = pk;
+            who_p_max = i + 1;
         }
 
         if (k < min_k) {
             min_k = k;
+            who_k_min = i + 1;
         }
         if (k > max_k) {
             max_k = k;
+            who_k_max = i + 1;
         }
 
         sum_pk += pk;
@@ -263,11 +271,11 @@ void hw48() {
         sum_k += k;
     }
 
-    cout << "Максимальная прибыль " << max_p << endl;
-    cout << "Минимальная прибыль " << min_p << endl;
+    cout << "Максимальная прибыль " << max_p << " у " << who_p_max << endl;
+    cout << "Минимальная прибыль " << min_p << " у " << who_p_min << endl;
 
-    cout << "Максимальная комиссия " << max_k << endl;
-    cout << "Минимальная комиссия " << min_k << endl;
+    cout << "Максимальная комиссия " << max_k << " у " << who_k_max << endl;
+    cout << "Минимальная комиссия " << min_k << " у " << who_k_min << endl;
 
     cout << "Общая прибыль " << sum_pk << endl;
     cout << "Общая комиссия " << sum_k << endl;
@@ -525,9 +533,25 @@ void hw55_1() {
 
 }
 
+void hw15() {
+    string a1, a2, a3;
+    cout << "На улице день?";
+    cin >> a1;
+    cout << "Раздвинуты шторы?";
+    cin >> a2;
+    cout << "Горит лампа?";
+    cin >> a3;
+
+    if ((a1 == "y" && a2 == "y") || a3 == "y"){
+        cout << "В комнате светло";
+    }else {
+        cout << "В комнате темно";
+    }
+}
+
 int main() {
     SetConsoleOutputCP(CP_UTF8);
     SetConsoleCP(CP_UTF8);
     setlocale(LC_ALL, "ru_RU.UTF-8");
-    hw52();
+    hw15();
 }

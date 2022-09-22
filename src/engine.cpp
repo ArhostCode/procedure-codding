@@ -17,11 +17,9 @@ Engine::Engine() {
 
 
 void Engine::run() {
-//    int bf[settings.allCount];
-//    train(bf);
 
     GABot bot;
-
+    settings.restore();
 
     auto future = std::async(std::launch::async, [&bot, this] {
         this->trainNetwork2(bot);
