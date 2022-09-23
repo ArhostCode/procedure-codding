@@ -47,19 +47,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\Programm Files\apps\CLion\ch-0\222.4167.35\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "D:\Program Files\CLion 2022.2\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\Programm Files\apps\CLion\ch-0\222.4167.35\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "D:\Program Files\CLion 2022.2\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Projects\automate
+CMAKE_SOURCE_DIR = D:\procedure-codding
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Projects\automate\cmake-build-debug
+CMAKE_BINARY_DIR = D:\procedure-codding\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -67,7 +67,7 @@ CMAKE_BINARY_DIR = D:\Projects\automate\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"D:\Programm Files\apps\CLion\ch-0\222.4167.35\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"D:\Program Files\CLion 2022.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -77,7 +77,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"D:\Programm Files\apps\CLion\ch-0\222.4167.35\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"D:\Program Files\CLion 2022.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Projects\automate\cmake-build-debug\CMakeFiles D:\Projects\automate\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\procedure-codding\cmake-build-debug\CMakeFiles D:\procedure-codding\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Projects\automate\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\procedure-codding\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -272,30 +272,6 @@ src/engine.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\automate.dir\build.make CMakeFiles/automate.dir/src/engine.cpp.s
 .PHONY : src/engine.cpp.s
 
-src/hw.obj: src/hw.cpp.obj
-.PHONY : src/hw.obj
-
-# target to build an object file
-src/hw.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\automate.dir\build.make CMakeFiles/automate.dir/src/hw.cpp.obj
-.PHONY : src/hw.cpp.obj
-
-src/hw.i: src/hw.cpp.i
-.PHONY : src/hw.i
-
-# target to preprocess a source file
-src/hw.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\automate.dir\build.make CMakeFiles/automate.dir/src/hw.cpp.i
-.PHONY : src/hw.cpp.i
-
-src/hw.s: src/hw.cpp.s
-.PHONY : src/hw.s
-
-# target to generate assembly for a file
-src/hw.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\automate.dir\build.make CMakeFiles/automate.dir/src/hw.cpp.s
-.PHONY : src/hw.cpp.s
-
 src/input.obj: src/input.cpp.obj
 .PHONY : src/input.obj
 
@@ -319,6 +295,30 @@ src/input.s: src/input.cpp.s
 src/input.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\automate.dir\build.make CMakeFiles/automate.dir/src/input.cpp.s
 .PHONY : src/input.cpp.s
+
+src/main.obj: src/main.cpp.obj
+.PHONY : src/main.obj
+
+# target to build an object file
+src/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\automate.dir\build.make CMakeFiles/automate.dir/src/main.cpp.obj
+.PHONY : src/main.cpp.obj
+
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\automate.dir\build.make CMakeFiles/automate.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\automate.dir\build.make CMakeFiles/automate.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 src/settings.obj: src/settings.cpp.obj
 .PHONY : src/settings.obj
@@ -395,12 +395,12 @@ help:
 	@echo ... src/engine.obj
 	@echo ... src/engine.i
 	@echo ... src/engine.s
-	@echo ... src/hw.obj
-	@echo ... src/hw.i
-	@echo ... src/hw.s
 	@echo ... src/input.obj
 	@echo ... src/input.i
 	@echo ... src/input.s
+	@echo ... src/main.obj
+	@echo ... src/main.i
+	@echo ... src/main.s
 	@echo ... src/settings.obj
 	@echo ... src/settings.i
 	@echo ... src/settings.s

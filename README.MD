@@ -1,5 +1,7 @@
 ## Automaton application
 
+https://ardyc.gitbook.io/procedure-codding/
+
 My first application on cpp. <br>
 Genetic algorithm. <br>
 I created this program to get an automaton for procedural programming. <br>

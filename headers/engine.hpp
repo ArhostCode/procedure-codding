@@ -22,7 +22,7 @@ private:
 
 
 public:
-    Field field{};
+    Field field;
 
     int bestPopFit = 0;
 
@@ -39,7 +39,6 @@ public:
     void run();
 
     void init();
-
 
     bool processFigure(int id);
 

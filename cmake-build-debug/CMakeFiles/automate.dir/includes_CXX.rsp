@@ -1,1 +1,1 @@
--ID:/Projects/automate/headers -I/usr/include -Ic:/SFML/include -IC:/SFML/include
+-I"D:/procedure-codding/headers" -I/usr/include -Ic:/SFML/include -IC:/SFML/include
