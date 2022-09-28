@@ -1,0 +1,3 @@
+"D:\Program Files\CLion 2022.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\automate.dir/objects.a
+"D:\Program Files\CLion 2022.2\bin\mingw\bin\ar.exe" qc CMakeFiles\automate.dir/objects.a @CMakeFiles\automate.dir\objects1.rsp
+"D:\Program Files\CLion 2022.2\bin\mingw\bin\g++.exe"  -std=c++11 -O3 -DNDEBUG -static -Wl,--whole-archive CMakeFiles\automate.dir/objects.a -Wl,--no-whole-archive -o automate.exe -Wl,--out-implib,libautomate.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\automate.dir\linklibs.rsp

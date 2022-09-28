@@ -53,10 +53,10 @@ RM = "D:\Program Files\CLion 2022.2\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\procedure-codding
+CMAKE_SOURCE_DIR = D:\Code\procedure-codding
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\procedure-codding\cmake-build-debug
+CMAKE_BINARY_DIR = D:\Code\procedure-codding\cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -80,14 +80,14 @@ clean: CMakeFiles/automate.dir/clean
 CMakeFiles/automate.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\automate.dir\build.make CMakeFiles/automate.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\automate.dir\build.make CMakeFiles/automate.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\procedure-codding\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11 "Built target automate"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Code\procedure-codding\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11 "Built target automate"
 .PHONY : CMakeFiles/automate.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/automate.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\procedure-codding\cmake-build-debug\CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Code\procedure-codding\cmake-build-debug\CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/automate.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\procedure-codding\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Code\procedure-codding\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/automate.dir/rule
 
 # Convenience name for target.

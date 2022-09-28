@@ -1,0 +1,3 @@
+D:/Code/procedure-codding/cmake-build-default/CMakeFiles/automate.dir
+D:/Code/procedure-codding/cmake-build-default/CMakeFiles/edit_cache.dir
+D:/Code/procedure-codding/cmake-build-default/CMakeFiles/rebuild_cache.dir

@@ -52,10 +52,10 @@ RM = "D:\Program Files\CLion 2022.2\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\procedure-codding
+CMAKE_SOURCE_DIR = D:\Code\procedure-codding
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\procedure-codding\cmake-build-debug
+CMAKE_BINARY_DIR = D:\Code\procedure-codding\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/automate.dir/depend.make
@@ -72,151 +72,151 @@ CMakeFiles/automate.dir/src/main.cpp.obj: CMakeFiles/automate.dir/flags.make
 CMakeFiles/automate.dir/src/main.cpp.obj: CMakeFiles/automate.dir/includes_CXX.rsp
 CMakeFiles/automate.dir/src/main.cpp.obj: ../src/main.cpp
 CMakeFiles/automate.dir/src/main.cpp.obj: CMakeFiles/automate.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\procedure-codding\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/automate.dir/src/main.cpp.obj"
-	"D:\Program Files\CLion 2022.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/automate.dir/src/main.cpp.obj -MF CMakeFiles\automate.dir\src\main.cpp.obj.d -o CMakeFiles\automate.dir\src\main.cpp.obj -c D:\procedure-codding\src\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Code\procedure-codding\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/automate.dir/src/main.cpp.obj"
+	"D:\Program Files\CLion 2022.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/automate.dir/src/main.cpp.obj -MF CMakeFiles\automate.dir\src\main.cpp.obj.d -o CMakeFiles\automate.dir\src\main.cpp.obj -c D:\Code\procedure-codding\src\main.cpp
 
 CMakeFiles/automate.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/automate.dir/src/main.cpp.i"
-	"D:\Program Files\CLion 2022.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\procedure-codding\src\main.cpp > CMakeFiles\automate.dir\src\main.cpp.i
+	"D:\Program Files\CLion 2022.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Code\procedure-codding\src\main.cpp > CMakeFiles\automate.dir\src\main.cpp.i
 
 CMakeFiles/automate.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/automate.dir/src/main.cpp.s"
-	"D:\Program Files\CLion 2022.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\procedure-codding\src\main.cpp -o CMakeFiles\automate.dir\src\main.cpp.s
+	"D:\Program Files\CLion 2022.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Code\procedure-codding\src\main.cpp -o CMakeFiles\automate.dir\src\main.cpp.s
 
 CMakeFiles/automate.dir/src/engine.cpp.obj: CMakeFiles/automate.dir/flags.make
 CMakeFiles/automate.dir/src/engine.cpp.obj: CMakeFiles/automate.dir/includes_CXX.rsp
 CMakeFiles/automate.dir/src/engine.cpp.obj: ../src/engine.cpp
 CMakeFiles/automate.dir/src/engine.cpp.obj: CMakeFiles/automate.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\procedure-codding\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/automate.dir/src/engine.cpp.obj"
-	"D:\Program Files\CLion 2022.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/automate.dir/src/engine.cpp.obj -MF CMakeFiles\automate.dir\src\engine.cpp.obj.d -o CMakeFiles\automate.dir\src\engine.cpp.obj -c D:\procedure-codding\src\engine.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Code\procedure-codding\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/automate.dir/src/engine.cpp.obj"
+	"D:\Program Files\CLion 2022.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/automate.dir/src/engine.cpp.obj -MF CMakeFiles\automate.dir\src\engine.cpp.obj.d -o CMakeFiles\automate.dir\src\engine.cpp.obj -c D:\Code\procedure-codding\src\engine.cpp
 
 CMakeFiles/automate.dir/src/engine.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/automate.dir/src/engine.cpp.i"
-	"D:\Program Files\CLion 2022.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\procedure-codding\src\engine.cpp > CMakeFiles\automate.dir\src\engine.cpp.i
+	"D:\Program Files\CLion 2022.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Code\procedure-codding\src\engine.cpp > CMakeFiles\automate.dir\src\engine.cpp.i
 
 CMakeFiles/automate.dir/src/engine.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/automate.dir/src/engine.cpp.s"
-	"D:\Program Files\CLion 2022.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\procedure-codding\src\engine.cpp -o CMakeFiles\automate.dir\src\engine.cpp.s
+	"D:\Program Files\CLion 2022.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Code\procedure-codding\src\engine.cpp -o CMakeFiles\automate.dir\src\engine.cpp.s
 
 CMakeFiles/automate.dir/src/draw.cpp.obj: CMakeFiles/automate.dir/flags.make
 CMakeFiles/automate.dir/src/draw.cpp.obj: CMakeFiles/automate.dir/includes_CXX.rsp
 CMakeFiles/automate.dir/src/draw.cpp.obj: ../src/draw.cpp
 CMakeFiles/automate.dir/src/draw.cpp.obj: CMakeFiles/automate.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\procedure-codding\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/automate.dir/src/draw.cpp.obj"
-	"D:\Program Files\CLion 2022.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/automate.dir/src/draw.cpp.obj -MF CMakeFiles\automate.dir\src\draw.cpp.obj.d -o CMakeFiles\automate.dir\src\draw.cpp.obj -c D:\procedure-codding\src\draw.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Code\procedure-codding\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/automate.dir/src/draw.cpp.obj"
+	"D:\Program Files\CLion 2022.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/automate.dir/src/draw.cpp.obj -MF CMakeFiles\automate.dir\src\draw.cpp.obj.d -o CMakeFiles\automate.dir\src\draw.cpp.obj -c D:\Code\procedure-codding\src\draw.cpp
 
 CMakeFiles/automate.dir/src/draw.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/automate.dir/src/draw.cpp.i"
-	"D:\Program Files\CLion 2022.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\procedure-codding\src\draw.cpp > CMakeFiles\automate.dir\src\draw.cpp.i
+	"D:\Program Files\CLion 2022.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Code\procedure-codding\src\draw.cpp > CMakeFiles\automate.dir\src\draw.cpp.i
 
 CMakeFiles/automate.dir/src/draw.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/automate.dir/src/draw.cpp.s"
-	"D:\Program Files\CLion 2022.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\procedure-codding\src\draw.cpp -o CMakeFiles\automate.dir\src\draw.cpp.s
+	"D:\Program Files\CLion 2022.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Code\procedure-codding\src\draw.cpp -o CMakeFiles\automate.dir\src\draw.cpp.s
 
 CMakeFiles/automate.dir/src/input.cpp.obj: CMakeFiles/automate.dir/flags.make
 CMakeFiles/automate.dir/src/input.cpp.obj: CMakeFiles/automate.dir/includes_CXX.rsp
 CMakeFiles/automate.dir/src/input.cpp.obj: ../src/input.cpp
 CMakeFiles/automate.dir/src/input.cpp.obj: CMakeFiles/automate.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\procedure-codding\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/automate.dir/src/input.cpp.obj"
-	"D:\Program Files\CLion 2022.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/automate.dir/src/input.cpp.obj -MF CMakeFiles\automate.dir\src\input.cpp.obj.d -o CMakeFiles\automate.dir\src\input.cpp.obj -c D:\procedure-codding\src\input.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Code\procedure-codding\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/automate.dir/src/input.cpp.obj"
+	"D:\Program Files\CLion 2022.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/automate.dir/src/input.cpp.obj -MF CMakeFiles\automate.dir\src\input.cpp.obj.d -o CMakeFiles\automate.dir\src\input.cpp.obj -c D:\Code\procedure-codding\src\input.cpp
 
 CMakeFiles/automate.dir/src/input.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/automate.dir/src/input.cpp.i"
-	"D:\Program Files\CLion 2022.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\procedure-codding\src\input.cpp > CMakeFiles\automate.dir\src\input.cpp.i
+	"D:\Program Files\CLion 2022.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Code\procedure-codding\src\input.cpp > CMakeFiles\automate.dir\src\input.cpp.i
 
 CMakeFiles/automate.dir/src/input.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/automate.dir/src/input.cpp.s"
-	"D:\Program Files\CLion 2022.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\procedure-codding\src\input.cpp -o CMakeFiles\automate.dir\src\input.cpp.s
+	"D:\Program Files\CLion 2022.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Code\procedure-codding\src\input.cpp -o CMakeFiles\automate.dir\src\input.cpp.s
 
 CMakeFiles/automate.dir/src/Field.cpp.obj: CMakeFiles/automate.dir/flags.make
 CMakeFiles/automate.dir/src/Field.cpp.obj: CMakeFiles/automate.dir/includes_CXX.rsp
 CMakeFiles/automate.dir/src/Field.cpp.obj: ../src/Field.cpp
 CMakeFiles/automate.dir/src/Field.cpp.obj: CMakeFiles/automate.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\procedure-codding\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/automate.dir/src/Field.cpp.obj"
-	"D:\Program Files\CLion 2022.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/automate.dir/src/Field.cpp.obj -MF CMakeFiles\automate.dir\src\Field.cpp.obj.d -o CMakeFiles\automate.dir\src\Field.cpp.obj -c D:\procedure-codding\src\Field.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Code\procedure-codding\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/automate.dir/src/Field.cpp.obj"
+	"D:\Program Files\CLion 2022.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/automate.dir/src/Field.cpp.obj -MF CMakeFiles\automate.dir\src\Field.cpp.obj.d -o CMakeFiles\automate.dir\src\Field.cpp.obj -c D:\Code\procedure-codding\src\Field.cpp
 
 CMakeFiles/automate.dir/src/Field.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/automate.dir/src/Field.cpp.i"
-	"D:\Program Files\CLion 2022.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\procedure-codding\src\Field.cpp > CMakeFiles\automate.dir\src\Field.cpp.i
+	"D:\Program Files\CLion 2022.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Code\procedure-codding\src\Field.cpp > CMakeFiles\automate.dir\src\Field.cpp.i
 
 CMakeFiles/automate.dir/src/Field.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/automate.dir/src/Field.cpp.s"
-	"D:\Program Files\CLion 2022.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\procedure-codding\src\Field.cpp -o CMakeFiles\automate.dir\src\Field.cpp.s
+	"D:\Program Files\CLion 2022.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Code\procedure-codding\src\Field.cpp -o CMakeFiles\automate.dir\src\Field.cpp.s
 
 CMakeFiles/automate.dir/src/settings.cpp.obj: CMakeFiles/automate.dir/flags.make
 CMakeFiles/automate.dir/src/settings.cpp.obj: CMakeFiles/automate.dir/includes_CXX.rsp
 CMakeFiles/automate.dir/src/settings.cpp.obj: ../src/settings.cpp
 CMakeFiles/automate.dir/src/settings.cpp.obj: CMakeFiles/automate.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\procedure-codding\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/automate.dir/src/settings.cpp.obj"
-	"D:\Program Files\CLion 2022.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/automate.dir/src/settings.cpp.obj -MF CMakeFiles\automate.dir\src\settings.cpp.obj.d -o CMakeFiles\automate.dir\src\settings.cpp.obj -c D:\procedure-codding\src\settings.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Code\procedure-codding\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/automate.dir/src/settings.cpp.obj"
+	"D:\Program Files\CLion 2022.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/automate.dir/src/settings.cpp.obj -MF CMakeFiles\automate.dir\src\settings.cpp.obj.d -o CMakeFiles\automate.dir\src\settings.cpp.obj -c D:\Code\procedure-codding\src\settings.cpp
 
 CMakeFiles/automate.dir/src/settings.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/automate.dir/src/settings.cpp.i"
-	"D:\Program Files\CLion 2022.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\procedure-codding\src\settings.cpp > CMakeFiles\automate.dir\src\settings.cpp.i
+	"D:\Program Files\CLion 2022.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Code\procedure-codding\src\settings.cpp > CMakeFiles\automate.dir\src\settings.cpp.i
 
 CMakeFiles/automate.dir/src/settings.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/automate.dir/src/settings.cpp.s"
-	"D:\Program Files\CLion 2022.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\procedure-codding\src\settings.cpp -o CMakeFiles\automate.dir\src\settings.cpp.s
+	"D:\Program Files\CLion 2022.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Code\procedure-codding\src\settings.cpp -o CMakeFiles\automate.dir\src\settings.cpp.s
 
 CMakeFiles/automate.dir/src/GABot.cpp.obj: CMakeFiles/automate.dir/flags.make
 CMakeFiles/automate.dir/src/GABot.cpp.obj: CMakeFiles/automate.dir/includes_CXX.rsp
 CMakeFiles/automate.dir/src/GABot.cpp.obj: ../src/GABot.cpp
 CMakeFiles/automate.dir/src/GABot.cpp.obj: CMakeFiles/automate.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\procedure-codding\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/automate.dir/src/GABot.cpp.obj"
-	"D:\Program Files\CLion 2022.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/automate.dir/src/GABot.cpp.obj -MF CMakeFiles\automate.dir\src\GABot.cpp.obj.d -o CMakeFiles\automate.dir\src\GABot.cpp.obj -c D:\procedure-codding\src\GABot.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Code\procedure-codding\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/automate.dir/src/GABot.cpp.obj"
+	"D:\Program Files\CLion 2022.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/automate.dir/src/GABot.cpp.obj -MF CMakeFiles\automate.dir\src\GABot.cpp.obj.d -o CMakeFiles\automate.dir\src\GABot.cpp.obj -c D:\Code\procedure-codding\src\GABot.cpp
 
 CMakeFiles/automate.dir/src/GABot.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/automate.dir/src/GABot.cpp.i"
-	"D:\Program Files\CLion 2022.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\procedure-codding\src\GABot.cpp > CMakeFiles\automate.dir\src\GABot.cpp.i
+	"D:\Program Files\CLion 2022.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Code\procedure-codding\src\GABot.cpp > CMakeFiles\automate.dir\src\GABot.cpp.i
 
 CMakeFiles/automate.dir/src/GABot.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/automate.dir/src/GABot.cpp.s"
-	"D:\Program Files\CLion 2022.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\procedure-codding\src\GABot.cpp -o CMakeFiles\automate.dir\src\GABot.cpp.s
+	"D:\Program Files\CLion 2022.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Code\procedure-codding\src\GABot.cpp -o CMakeFiles\automate.dir\src\GABot.cpp.s
 
 CMakeFiles/automate.dir/src/GACore.cpp.obj: CMakeFiles/automate.dir/flags.make
 CMakeFiles/automate.dir/src/GACore.cpp.obj: CMakeFiles/automate.dir/includes_CXX.rsp
 CMakeFiles/automate.dir/src/GACore.cpp.obj: ../src/GACore.cpp
 CMakeFiles/automate.dir/src/GACore.cpp.obj: CMakeFiles/automate.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\procedure-codding\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/automate.dir/src/GACore.cpp.obj"
-	"D:\Program Files\CLion 2022.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/automate.dir/src/GACore.cpp.obj -MF CMakeFiles\automate.dir\src\GACore.cpp.obj.d -o CMakeFiles\automate.dir\src\GACore.cpp.obj -c D:\procedure-codding\src\GACore.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Code\procedure-codding\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/automate.dir/src/GACore.cpp.obj"
+	"D:\Program Files\CLion 2022.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/automate.dir/src/GACore.cpp.obj -MF CMakeFiles\automate.dir\src\GACore.cpp.obj.d -o CMakeFiles\automate.dir\src\GACore.cpp.obj -c D:\Code\procedure-codding\src\GACore.cpp
 
 CMakeFiles/automate.dir/src/GACore.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/automate.dir/src/GACore.cpp.i"
-	"D:\Program Files\CLion 2022.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\procedure-codding\src\GACore.cpp > CMakeFiles\automate.dir\src\GACore.cpp.i
+	"D:\Program Files\CLion 2022.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Code\procedure-codding\src\GACore.cpp > CMakeFiles\automate.dir\src\GACore.cpp.i
 
 CMakeFiles/automate.dir/src/GACore.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/automate.dir/src/GACore.cpp.s"
-	"D:\Program Files\CLion 2022.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\procedure-codding\src\GACore.cpp -o CMakeFiles\automate.dir\src\GACore.cpp.s
+	"D:\Program Files\CLion 2022.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Code\procedure-codding\src\GACore.cpp -o CMakeFiles\automate.dir\src\GACore.cpp.s
 
 CMakeFiles/automate.dir/src/settings_window.cpp.obj: CMakeFiles/automate.dir/flags.make
 CMakeFiles/automate.dir/src/settings_window.cpp.obj: CMakeFiles/automate.dir/includes_CXX.rsp
 CMakeFiles/automate.dir/src/settings_window.cpp.obj: ../src/settings_window.cpp
 CMakeFiles/automate.dir/src/settings_window.cpp.obj: CMakeFiles/automate.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\procedure-codding\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/automate.dir/src/settings_window.cpp.obj"
-	"D:\Program Files\CLion 2022.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/automate.dir/src/settings_window.cpp.obj -MF CMakeFiles\automate.dir\src\settings_window.cpp.obj.d -o CMakeFiles\automate.dir\src\settings_window.cpp.obj -c D:\procedure-codding\src\settings_window.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Code\procedure-codding\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/automate.dir/src/settings_window.cpp.obj"
+	"D:\Program Files\CLion 2022.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/automate.dir/src/settings_window.cpp.obj -MF CMakeFiles\automate.dir\src\settings_window.cpp.obj.d -o CMakeFiles\automate.dir\src\settings_window.cpp.obj -c D:\Code\procedure-codding\src\settings_window.cpp
 
 CMakeFiles/automate.dir/src/settings_window.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/automate.dir/src/settings_window.cpp.i"
-	"D:\Program Files\CLion 2022.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\procedure-codding\src\settings_window.cpp > CMakeFiles\automate.dir\src\settings_window.cpp.i
+	"D:\Program Files\CLion 2022.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Code\procedure-codding\src\settings_window.cpp > CMakeFiles\automate.dir\src\settings_window.cpp.i
 
 CMakeFiles/automate.dir/src/settings_window.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/automate.dir/src/settings_window.cpp.s"
-	"D:\Program Files\CLion 2022.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\procedure-codding\src\settings_window.cpp -o CMakeFiles\automate.dir\src\settings_window.cpp.s
+	"D:\Program Files\CLion 2022.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Code\procedure-codding\src\settings_window.cpp -o CMakeFiles\automate.dir\src\settings_window.cpp.s
 
 CMakeFiles/automate.dir/src/Button.cpp.obj: CMakeFiles/automate.dir/flags.make
 CMakeFiles/automate.dir/src/Button.cpp.obj: CMakeFiles/automate.dir/includes_CXX.rsp
 CMakeFiles/automate.dir/src/Button.cpp.obj: ../src/Button.cpp
 CMakeFiles/automate.dir/src/Button.cpp.obj: CMakeFiles/automate.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\procedure-codding\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/automate.dir/src/Button.cpp.obj"
-	"D:\Program Files\CLion 2022.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/automate.dir/src/Button.cpp.obj -MF CMakeFiles\automate.dir\src\Button.cpp.obj.d -o CMakeFiles\automate.dir\src\Button.cpp.obj -c D:\procedure-codding\src\Button.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Code\procedure-codding\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/automate.dir/src/Button.cpp.obj"
+	"D:\Program Files\CLion 2022.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/automate.dir/src/Button.cpp.obj -MF CMakeFiles\automate.dir\src\Button.cpp.obj.d -o CMakeFiles\automate.dir\src\Button.cpp.obj -c D:\Code\procedure-codding\src\Button.cpp
 
 CMakeFiles/automate.dir/src/Button.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/automate.dir/src/Button.cpp.i"
-	"D:\Program Files\CLion 2022.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\procedure-codding\src\Button.cpp > CMakeFiles\automate.dir\src\Button.cpp.i
+	"D:\Program Files\CLion 2022.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Code\procedure-codding\src\Button.cpp > CMakeFiles\automate.dir\src\Button.cpp.i
 
 CMakeFiles/automate.dir/src/Button.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/automate.dir/src/Button.cpp.s"
-	"D:\Program Files\CLion 2022.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\procedure-codding\src\Button.cpp -o CMakeFiles\automate.dir\src\Button.cpp.s
+	"D:\Program Files\CLion 2022.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Code\procedure-codding\src\Button.cpp -o CMakeFiles\automate.dir\src\Button.cpp.s
 
 # Object files for target automate
 automate_OBJECTS = \
@@ -253,7 +253,7 @@ automate.exe: C:/SFML/lib/libsfml-audio-d.a
 automate.exe: CMakeFiles/automate.dir/linklibs.rsp
 automate.exe: CMakeFiles/automate.dir/objects1.rsp
 automate.exe: CMakeFiles/automate.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\procedure-codding\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable automate.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Code\procedure-codding\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable automate.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\automate.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -265,6 +265,6 @@ CMakeFiles/automate.dir/clean:
 .PHONY : CMakeFiles/automate.dir/clean
 
 CMakeFiles/automate.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\procedure-codding D:\procedure-codding D:\procedure-codding\cmake-build-debug D:\procedure-codding\cmake-build-debug D:\procedure-codding\cmake-build-debug\CMakeFiles\automate.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\Code\procedure-codding D:\Code\procedure-codding D:\Code\procedure-codding\cmake-build-debug D:\Code\procedure-codding\cmake-build-debug D:\Code\procedure-codding\cmake-build-debug\CMakeFiles\automate.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/automate.dir/depend
 

@@ -9,9 +9,9 @@
 class values {
 public:
     static const int POP_COUNT = 100;
-    static const int GEN_COUNT = 100;
+    static const int GEN_COUNT = 30;
     static const int GEN_BEST_COUNT = 100;
-    static const int MUTATION_RATE = 100;
+    static const int MUTATION_RATE = 500;
     static const int MUTATION_BEST_RATE = 500;
 };
 
