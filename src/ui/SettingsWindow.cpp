@@ -7,7 +7,6 @@
 #include "ui/MainWindow.h"
 #include <SFML/Graphics.hpp>
 #include <SFML/Graphics/RectangleShape.hpp>
-#include "Engine.hpp"
 
 SettingsWindow::SettingsWindow() {
     Vector2f resolution = Vector2f(900, 550);
@@ -85,9 +84,9 @@ void SettingsWindow::draw() {
     window.draw(t4);
 
     for (auto &button: buttons) {
-        if(button.img == "null") {
+        if(!button.isLoadedTexture) {
             sf::RectangleShape s;
-            s.setSize(Vector2f(button.sx, button.sy));
+            s.setSize(Vector2f(button.sizeX, button.sizeY));
             s.setPosition(button.posx, button.posy);
             s.setFillColor(Color::Blue);
             window.draw(s);
@@ -128,7 +127,7 @@ void SettingsWindow::input() {
                 int y = Mouse::getPosition(window).y;
 
 
-                if (y >= button.posy && y <= button.posy + button.sy && x >= button.posx && x <= button.posx + button.sx) {
+                if (y >= button.posy && y <= button.posy + button.sizeY && x >= button.posx && x <= button.posx + button.sizeX) {
                     if (button.id == 0) {
                         settings.squareCountMax -= 1;
                     }

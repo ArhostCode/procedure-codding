@@ -6,33 +6,25 @@
 #define AUTOMATE_SETTINGS_H
 
 
-class settings {
+class Settings {
 
 public:
-    int allCount() {
-        return stairs2CountMax + stairsCountMax + rectCountMax + squareCountMax;
-    }
+
+    int squareCountMax = 50;
+    int rectCountMax = 50;
+    int stairsCountMax = 50;
+    int stairs2CountMax = 50;
 
     int squareCount = squareCountMax;
     int rectCount = rectCountMax;
     int stairsCount = stairsCountMax;
     int stairs2Count = stairs2CountMax;
 
-    int figSum() {
-        return stairs2Count + stairsCount + rectCount + squareCount;
-    }
+    int allCount();
 
-    void restore() {
-        squareCount = squareCountMax;
-        rectCount = rectCountMax;
-        stairs2Count = stairs2CountMax;
-        stairsCount = stairsCountMax;
-    }
+    int figSum();
 
-    int squareCountMax = 50;
-    int rectCountMax = 50;
-    int stairsCountMax = 50;
-    int stairs2CountMax = 50;
+    void restore();
 
 };
 

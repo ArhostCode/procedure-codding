@@ -1,5 +1,5 @@
-"D:\Program Files\CLion 2022.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" -S D:\Code\procedure-codding -B D:\Code\procedure-codding\cmake-build-debug
--- Found SFML .. in C:/SFML/include
+"D:\Programm Files\apps\CLion\ch-0\222.4167.35\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" -S D:\Projects\procedure-codding -B D:\Projects\procedure-codding\cmake-build-debug
+-- Found SFML .. in D:/Libraries/SFML-2.5.1/include
 -- Configuring done
 -- Generating done
--- Build files have been written to: D:/Code/procedure-codding/cmake-build-debug
+-- Build files have been written to: D:/Projects/procedure-codding/cmake-build-debug

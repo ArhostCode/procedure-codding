@@ -263,7 +263,7 @@ CMakeFiles/automate.dir/src/input.cpp.obj: \
  c:/SFML/include/SFML/Graphics/VertexBuffer.hpp \
  D:/Code/procedure-codding/headers/Field.h \
  D:/Code/procedure-codding/headers/settings.h \
- D:/Code/procedure-codding/headers/GABot.h \
+ D:/Code/procedure-codding/headers/Bot.h \
  D:/Code/procedure-codding/headers/GACore.h \
  D:/Code/procedure-codding/headers/values.h \
  D:/Code/procedure-codding/headers/settings_window.h \

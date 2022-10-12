@@ -2,25 +2,19 @@
 // Created by ardyc-user on 17.09.2022.
 //
 
-#ifndef AUTOMATE_GABOT_H
-#define AUTOMATE_GABOT_H
+#ifndef AUTOMATE_BOT_H
+#define AUTOMATE_BOT_H
 
 #include <vector>
 #include "iostream"
 
-class GABot {
-
+class Bot {
 public:
     std::vector<int> commands;
-
-    void addCommand(int id) {
-        commands.insert(commands.end(), id);
-    }
-
     int fit = 0;
 
-
+    void addCommand(int id);
 };
 
 
-#endif //AUTOMATE_GABOT_H
+#endif //AUTOMATE_BOT_H

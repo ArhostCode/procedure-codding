@@ -1,12 +1,7 @@
-#include "engine.hpp"
-#include "settings_window.h"
+#include "ui/SettingsWindow.h"
 
 int main() {
-
-    settings_window settingsWindow;
+    SettingsWindow settingsWindow;
     settingsWindow.run();
-//    Engine engine;
-//    engine.init();
-//    engine.run();
     return 0;
 }

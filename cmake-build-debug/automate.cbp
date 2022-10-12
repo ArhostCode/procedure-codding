@@ -8,148 +8,144 @@
 		<Option virtualFolders="CMake Files\;CMake Files\cmake_modules\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="D:/Code/procedure-codding/cmake-build-debug"/>
+				<Option working_dir="D:/Projects/procedure-codding/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/Program Files/CLion 2022.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Code/procedure-codding/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="D:/Program Files/CLion 2022.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Code/procedure-codding/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Program Files/CLion 2022.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Code/procedure-codding/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Program Files/CLion 2022.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Code/procedure-codding/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Programm Files/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Projects/procedure-codding/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/Programm Files/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Projects/procedure-codding/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Programm Files/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Projects/procedure-codding/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Programm Files/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Projects/procedure-codding/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="automate">
-				<Option output="D:/Code/procedure-codding/cmake-build-debug/automate.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Code/procedure-codding/cmake-build-debug"/>
+				<Option output="D:/Projects/procedure-codding/cmake-build-debug/automate.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Projects/procedure-codding/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Code/procedure-codding/headers"/>
+					<Add directory="D:/Projects/procedure-codding/headers"/>
 					<Add directory="/usr/include"/>
-					<Add directory="c:/SFML/include"/>
-					<Add directory="C:/SFML/include"/>
-					<Add directory="D:/Program Files/CLion 2022.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
-					<Add directory="D:/Program Files/CLion 2022.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/Program Files/CLion 2022.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
-					<Add directory="D:/Program Files/CLion 2022.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
-					<Add directory="D:/Program Files/CLion 2022.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
-					<Add directory="D:/Program Files/CLion 2022.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
-					<Add directory="D:/Program Files/CLion 2022.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="/mingw/include"/>
+					<Add directory="D:/Libraries/SFML-2.5.1/include"/>
+					<Add directory="D:/Programm Files/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/Programm Files/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Programm Files/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/Programm Files/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/Programm Files/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/Programm Files/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/Programm Files/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Program Files/CLion 2022.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Code/procedure-codding/cmake-build-debug/Makefile&quot;  VERBOSE=1 automate"/>
-					<CompileFile command="D:/Program Files/CLion 2022.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Code/procedure-codding/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Program Files/CLion 2022.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Code/procedure-codding/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Program Files/CLion 2022.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Code/procedure-codding/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Programm Files/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Projects/procedure-codding/cmake-build-debug/Makefile&quot;  VERBOSE=1 automate"/>
+					<CompileFile command="D:/Programm Files/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Projects/procedure-codding/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Programm Files/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Projects/procedure-codding/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Programm Files/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Projects/procedure-codding/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="automate/fast">
-				<Option output="D:/Code/procedure-codding/cmake-build-debug/automate.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Code/procedure-codding/cmake-build-debug"/>
+				<Option output="D:/Projects/procedure-codding/cmake-build-debug/automate.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Projects/procedure-codding/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Code/procedure-codding/headers"/>
+					<Add directory="D:/Projects/procedure-codding/headers"/>
 					<Add directory="/usr/include"/>
-					<Add directory="c:/SFML/include"/>
-					<Add directory="C:/SFML/include"/>
-					<Add directory="D:/Program Files/CLion 2022.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
-					<Add directory="D:/Program Files/CLion 2022.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/Program Files/CLion 2022.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
-					<Add directory="D:/Program Files/CLion 2022.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
-					<Add directory="D:/Program Files/CLion 2022.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
-					<Add directory="D:/Program Files/CLion 2022.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
-					<Add directory="D:/Program Files/CLion 2022.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="/mingw/include"/>
+					<Add directory="D:/Libraries/SFML-2.5.1/include"/>
+					<Add directory="D:/Programm Files/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/Programm Files/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Programm Files/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/Programm Files/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/Programm Files/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/Programm Files/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/Programm Files/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Program Files/CLion 2022.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Code/procedure-codding/cmake-build-debug/Makefile&quot;  VERBOSE=1 automate/fast"/>
-					<CompileFile command="D:/Program Files/CLion 2022.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Code/procedure-codding/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Program Files/CLion 2022.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Code/procedure-codding/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Program Files/CLion 2022.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Code/procedure-codding/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Programm Files/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Projects/procedure-codding/cmake-build-debug/Makefile&quot;  VERBOSE=1 automate/fast"/>
+					<CompileFile command="D:/Programm Files/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Projects/procedure-codding/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Programm Files/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Projects/procedure-codding/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Programm Files/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Projects/procedure-codding/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="D:/Code/procedure-codding/cmake-build-debug"/>
+				<Option working_dir="D:/Projects/procedure-codding/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/Program Files/CLion 2022.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Code/procedure-codding/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="D:/Program Files/CLion 2022.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Code/procedure-codding/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Program Files/CLion 2022.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Code/procedure-codding/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Program Files/CLion 2022.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Code/procedure-codding/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Programm Files/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Projects/procedure-codding/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/Programm Files/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Projects/procedure-codding/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Programm Files/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Projects/procedure-codding/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Programm Files/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Projects/procedure-codding/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="D:/Code/procedure-codding/cmake-build-debug"/>
+				<Option working_dir="D:/Projects/procedure-codding/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/Program Files/CLion 2022.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Code/procedure-codding/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="D:/Program Files/CLion 2022.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Code/procedure-codding/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Program Files/CLion 2022.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Code/procedure-codding/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Program Files/CLion 2022.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Code/procedure-codding/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Programm Files/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Projects/procedure-codding/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/Programm Files/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Projects/procedure-codding/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Programm Files/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Projects/procedure-codding/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Programm Files/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Projects/procedure-codding/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/Code/procedure-codding/headers/Button.h">
+		<Unit filename="D:/Projects/procedure-codding/headers/Engine.hpp">
 			<Option target="automate"/>
 		</Unit>
-		<Unit filename="D:/Code/procedure-codding/headers/Field.h">
+		<Unit filename="D:/Projects/procedure-codding/headers/Field.h">
 			<Option target="automate"/>
 		</Unit>
-		<Unit filename="D:/Code/procedure-codding/headers/GABot.h">
+		<Unit filename="D:/Projects/procedure-codding/headers/Settings.h">
 			<Option target="automate"/>
 		</Unit>
-		<Unit filename="D:/Code/procedure-codding/headers/GACore.h">
+		<Unit filename="D:/Projects/procedure-codding/headers/Values.h">
 			<Option target="automate"/>
 		</Unit>
-		<Unit filename="D:/Code/procedure-codding/headers/engine.hpp">
+		<Unit filename="D:/Projects/procedure-codding/headers/genetic/Bot.h">
 			<Option target="automate"/>
 		</Unit>
-		<Unit filename="D:/Code/procedure-codding/headers/settings.h">
+		<Unit filename="D:/Projects/procedure-codding/headers/genetic/GACore.h">
 			<Option target="automate"/>
 		</Unit>
-		<Unit filename="D:/Code/procedure-codding/headers/settings_window.h">
+		<Unit filename="D:/Projects/procedure-codding/headers/ui/Button.h">
 			<Option target="automate"/>
 		</Unit>
-		<Unit filename="D:/Code/procedure-codding/headers/values.h">
+		<Unit filename="D:/Projects/procedure-codding/headers/ui/MainWindow.h">
 			<Option target="automate"/>
 		</Unit>
-		<Unit filename="D:/Code/procedure-codding/src/Button.cpp">
+		<Unit filename="D:/Projects/procedure-codding/headers/ui/SettingsWindow.h">
 			<Option target="automate"/>
 		</Unit>
-		<Unit filename="D:/Code/procedure-codding/src/Field.cpp">
+		<Unit filename="D:/Projects/procedure-codding/src/Engine.cpp">
 			<Option target="automate"/>
 		</Unit>
-		<Unit filename="D:/Code/procedure-codding/src/GABot.cpp">
+		<Unit filename="D:/Projects/procedure-codding/src/Field.cpp">
 			<Option target="automate"/>
 		</Unit>
-		<Unit filename="D:/Code/procedure-codding/src/GACore.cpp">
+		<Unit filename="D:/Projects/procedure-codding/src/Main.cpp">
 			<Option target="automate"/>
 		</Unit>
-		<Unit filename="D:/Code/procedure-codding/src/draw.cpp">
+		<Unit filename="D:/Projects/procedure-codding/src/Settings.cpp">
 			<Option target="automate"/>
 		</Unit>
-		<Unit filename="D:/Code/procedure-codding/src/engine.cpp">
+		<Unit filename="D:/Projects/procedure-codding/src/genetic/Bot.cpp">
 			<Option target="automate"/>
 		</Unit>
-		<Unit filename="D:/Code/procedure-codding/src/input.cpp">
+		<Unit filename="D:/Projects/procedure-codding/src/genetic/GACore.cpp">
 			<Option target="automate"/>
 		</Unit>
-		<Unit filename="D:/Code/procedure-codding/src/main.cpp">
+		<Unit filename="D:/Projects/procedure-codding/src/ui/Button.cpp">
 			<Option target="automate"/>
 		</Unit>
-		<Unit filename="D:/Code/procedure-codding/src/settings.cpp">
+		<Unit filename="D:/Projects/procedure-codding/src/ui/MainWindow.cpp">
 			<Option target="automate"/>
 		</Unit>
-		<Unit filename="D:/Code/procedure-codding/src/settings_window.cpp">
+		<Unit filename="D:/Projects/procedure-codding/src/ui/SettingsWindow.cpp">
 			<Option target="automate"/>
 		</Unit>
-		<Unit filename="D:/Code/procedure-codding/CMakeLists.txt">
+		<Unit filename="D:/Projects/procedure-codding/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="D:/Code/procedure-codding/cmake_modules/FindSFML.cmake">
+		<Unit filename="D:/Projects/procedure-codding/cmake_modules/FindSFML.cmake">
 			<Option virtualFolder="CMake Files\cmake_modules\"/>
 		</Unit>
 	</Project>

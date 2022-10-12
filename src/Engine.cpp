@@ -1,71 +1,13 @@
 #include <iostream>
 #include <thread>
-#include "engine.hpp"
-#include "GABot.h"
-#include "GACore.h"
-#include "values.h"
+#include "Engine.hpp"
+#include "genetic/Bot.h"
+#include "genetic/GACore.h"
+#include "Values.h"
 #include "future"
 
-const sf::Time Engine::TimePerFrame = seconds(1.f / 60.f);
-
-
-Engine::Engine() {
-    resolution = Vector2f(900, 550);
-    window.create(VideoMode(resolution.x, resolution.y), "Automate", Style::Default);
-    window.setFramerateLimit(FPS);
-}
-
-
-void Engine::run() {
-
-    GABot bot;
-    settings.restore();
-
-    auto future = std::async(std::launch::async, [&bot, this] {
-        this->trainNetwork2(bot);
-        return bot;
-    });
-
-    bool futureReady = false;
-
-
-    bool cont = true;
-    int k = 0;
-
-    while (window.isOpen()) {
-        input();
-        if (!futureReady) {
-            if (future.wait_for(0ms) == std::future_status::ready) {
-                futureReady = true;
-                field.init();
-                settings.restore();
-                bot.commands = future.get().commands;
-            }
-        }
-        if (settings.figSum() > 0 && cont && futureReady) {
-            processFigure(bot.commands[k]);
-            if (k >= bot.commands.size() - 1) {
-                cont = false;
-                cout << field.countFit();
-                text.insert(text.end(), string("Score: ") + to_string(50 * 50 - field.countFit()) + "/2500");
-                text.insert(text.end(), string("Square: ") + to_string(settings.squareCount) + "/" +
-                                        to_string(settings.squareCountMax));
-                text.insert(text.end(),
-                            string("Rect: ") + to_string(settings.rectCount) + "/" + to_string(settings.rectCountMax));
-                text.insert(text.end(), string("Stairs: ") + to_string(settings.stairsCount) + "/" +
-                                        to_string(settings.stairsCountMax));
-                text.insert(text.end(), string("Stairs2: ") + to_string(settings.stairsCount) + "/" +
-                                        to_string(settings.stairs2CountMax));
-            }
-            k += 1;
-        }
-
-        draw();
-    }
-}
-
-void Engine::init() {
-    Engine::field.init();
+void Engine::initialize() {
+    Engine::field.initialize();
     core.settings = settings;
 }
 
@@ -194,12 +136,12 @@ int Engine::processRandom() {
             i;
 }
 
-void Engine::train(GABot &bot) {
+void Engine::train(Bot &bot) {
     int bestFit = 100000;
     int now[settings.allCount()];
     int iter = 0;
     for (int i = 0; i < 10000; ++i) {
-        field.init();
+        field.initialize();
         iter = 0;
         settings.restore();
         while (settings.figSum() > 0) {
@@ -219,14 +161,14 @@ void Engine::train(GABot &bot) {
     }
 }
 
-void Engine::trainNetwork(GABot &bot) {
-    vector<GABot> bots;
+void Engine::trainNetwork(Bot &bot) {
+    vector<Bot> bots;
     int iter = 0;
-    for (int i = 0; i < values::POP_COUNT; ++i) {
-        field.init();
+    for (int i = 0; i < Values::POP_COUNT; ++i) {
+        field.initialize();
         iter = 0;
         settings.restore();
-        GABot bot;
+        Bot bot;
         while (settings.figSum() > 0) {
             int k = processRandom();
             if (k == 100)
@@ -238,15 +180,15 @@ void Engine::trainNetwork(GABot &bot) {
         bots.insert(bots.begin(), bot);
     }
 
-    vector<GABot> np = bots;
+    vector<Bot> np = bots;
 
-    for (int j = 0; j < values::GEN_COUNT; ++j) {
-        core.baubleSort(np);
+    for (int j = 0; j < Values::GEN_COUNT; ++j) {
+        core.sort(np);
         cout << np[0].fit << endl;
         cout << np[0].commands.size() << endl;
         np = core.createNewPopulation(np);
         for (int i = 0; i < np.size(); ++i) {
-            field.init();
+            field.initialize();
             iter = 0;
             settings.restore();
             while (iter < np[i].commands.size()) {
@@ -260,20 +202,20 @@ void Engine::trainNetwork(GABot &bot) {
         }
 
     }
-    core.baubleSort(np);
+    core.sort(np);
     bot.commands = np[0].commands;
     cout << np[0].fit << endl;
 }
 
 
-void Engine::trainNetwork2(GABot &bot) {
-    vector<GABot> bots;
+void Engine::trainNetwork2(Bot &bot) {
+    vector<Bot> bots;
     int iter = 0;
-    for (int i = 0; i < values::POP_COUNT; ++i) {
-        field.init();
+    for (int i = 0; i < Values::POP_COUNT; ++i) {
+        field.initialize();
         iter = 0;
         settings.restore();
-        GABot bot;
+        Bot bot;
         while (settings.figSum() > 0) {
             int k = processRandom();
             bot.addCommand(k);
@@ -287,16 +229,16 @@ void Engine::trainNetwork2(GABot &bot) {
         bots.insert(bots.begin(), bot);
     }
 
-    vector<GABot> np = bots;
-    GABot best;
+    vector<Bot> np = bots;
+    Bot best;
     best.fit = 10000;
-    for (int j = 0; j < values::GEN_COUNT; ++j) {
-        core.baubleSort(np);
+    for (int j = 0; j < Values::GEN_COUNT; ++j) {
+        core.sort(np);
         bestPopFit = np[0].fit;
         np = core.createNewPopulation(np);
 
         for (int i = 0; i < np.size(); ++i) {
-            field.init();
+            field.initialize();
             iter = 0;
             settings.restore();
             while (iter < np[i].commands.size()) {
@@ -316,13 +258,13 @@ void Engine::trainNetwork2(GABot &bot) {
     }
 
     np.at(0) = best;
-    for (int j = 0; j < values::GEN_BEST_COUNT; ++j) {
-        core.baubleSort(np);
+    for (int j = 0; j < Values::GEN_BEST_COUNT; ++j) {
+        core.sort(np);
         bestPopFit = np[0].fit;
         cout << j << " Generation - " << np[0].fit << endl;
         np = core.createNewPopulationFromBest(np);
         for (int i = 0; i < np.size(); ++i) {
-            field.init();
+            field.initialize();
             iter = 0;
             settings.restore();
             while (iter < np[i].commands.size()) {
@@ -336,7 +278,7 @@ void Engine::trainNetwork2(GABot &bot) {
         }
 
     }
-    core.baubleSort(np);
+    core.sort(np);
     bot.commands = np[0].commands;
     cout << np[0].fit << endl;
 }

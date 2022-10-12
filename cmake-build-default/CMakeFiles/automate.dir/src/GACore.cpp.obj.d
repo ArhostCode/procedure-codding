@@ -1,7 +1,7 @@
 CMakeFiles/automate.dir/src/GACore.cpp.obj: \
  D:\Code\procedure-codding\src\GACore.cpp \
  D:/Code/procedure-codding/headers/GACore.h \
- D:/Code/procedure-codding/headers/GABot.h \
+ D:/Code/procedure-codding/headers/Bot.h \
  D:/Program\ Files/CLion\ 2022.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/vector \
  D:/Program\ Files/CLion\ 2022.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_algobase.h \
  D:/Program\ Files/CLion\ 2022.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \

@@ -5,52 +5,34 @@
 #include <SFML/Graphics/RectangleShape.hpp>
 #include <vector>
 #include "Field.h"
-#include "settings.h"
-#include "GABot.h"
-#include "GACore.h"
+#include "Settings.h"
+#include "genetic/Bot.h"
+#include "genetic/GACore.h"
 
 using namespace sf;
 using namespace std;
 
 class Engine {
-private:
-    // Window
-    Vector2f resolution;
-    RenderWindow window;
-    const unsigned int FPS = 60;
-    static const Time TimePerFrame;
-
-
 public:
     Field field;
 
     int bestPopFit = 0;
 
-    settings settings;
+    Settings settings;
 
     GACore core;
 
-    Engine();
-
-    void input();
-
-    void draw();
-
-    void run();
-
-    void init();
+    void initialize();
 
     bool processFigure(int id);
 
     int processRandom();
 
-    void train(int *best);
+    void trainNetwork(Bot &bot);
 
-    void trainNetwork(GABot &bot);
+    void train(Bot &bot);
 
-    void train(GABot &bot);
-
-    void trainNetwork2(GABot &bot);
+    void trainNetwork2(Bot &bot);
 
     vector<string> text;
 };

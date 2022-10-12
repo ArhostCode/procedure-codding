@@ -1,3 +1,3 @@
-CMakeFiles/automate.dir/src/settings.cpp.obj: \
- D:\Code\procedure-codding\src\settings.cpp \
- D:/Code/procedure-codding/headers/settings.h
+CMakeFiles/automate.dir/src/Settings.cpp.obj: \
+ D:\Projects\procedure-codding\src\Settings.cpp \
+ D:/Projects/procedure-codding/headers/Settings.h

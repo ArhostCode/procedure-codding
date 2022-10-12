@@ -6,7 +6,7 @@
 #define AUTOMATE_VALUES_H
 
 
-class values {
+class Values {
 public:
     static const int POP_COUNT = 100;
     static const int GEN_COUNT = 30;

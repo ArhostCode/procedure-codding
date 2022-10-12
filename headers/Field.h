@@ -10,7 +10,7 @@ class Field {
 public:
     int field[50][50];
 
-    void init();
+    void initialize();
 
     void drawSquare(int xpos, int ypos);
 

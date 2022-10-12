@@ -4,6 +4,7 @@
 
 #include <iostream>
 #include <fstream>
+#include <vector>
 #include "windows.h"
 #include "cmath"
 
@@ -542,16 +543,143 @@ void hw15() {
     cout << "Горит лампа?";
     cin >> a3;
 
-    if ((a1 == "y" && a2 == "y") || a3 == "y"){
+    if ((a1 == "y" && a2 == "y") || a3 == "y") {
         cout << "В комнате светло";
-    }else {
+    } else {
         cout << "В комнате темно";
     }
+}
+
+// ((N + 1) / 2 * N)  - количество разных прямоугольников в 1 строке
+// ((M + 1) / 2 * M)  - количество разных прямоугольников в 1 столбце
+// Следовательно K = ((N + 1) / 2 * N) * ((M + 1) / 2 * M) = M * N * (M+1) * (N+1) / 4
+
+void sp3() {
+    cout << "Введите размеры прямоугольника N,M\n";
+    int m, n;
+    cin >> n >> m;
+    int k = (m * n * (n + 1) * (m + 1)) / 4;
+    cout << "Прямоугольников - " << k << endl;
+
+}
+
+void sp4() {
+    cout << "Введите N,K\n";
+    int n, k;
+    cin >> n >> k;
+
+    int sm, max, lr, rr, l, r;
+    bool s[n + 2];
+    sm = 0;
+    max = 0;
+    lr = 0;
+    rr = 0;
+    l = 0;
+    r = 0;
+
+    s[0] = true;
+    s[n + 1] = true;
+    for (int i = 1; i < n + 1; ++i) {
+        s[i] = false;
+    }
+    while (k > 0) {
+        for (int i = 0; i <= n + 1; i++) {
+            if (!s[i]) {
+                sm = sm + 1;
+            } else {
+                if (sm > max) {
+                    lr = i - 1 - sm;
+                    rr = i;
+                    max = sm;
+                }
+                sm = 0;
+            }
+        }
+        s[(lr + rr) / 2] = true;
+        sm = 0;
+        max = 0;
+        k--;
+    }
+
+    l = (lr + rr) / 2 - (lr + 1);
+    r = (rr - 1) - (lr + rr) / 2;
+    cout << endl << "Слева: " << l << " " << ", справа: " << r << endl;
+}
+
+
+bool contains(int e, vector<int> sharik) {
+    for (int i = 0; i < sharik.size(); ++i) {
+        if (sharik[i] == e)
+            return true;
+    }
+    return false;
+}
+
+int factorial(long int n) {
+    if (n == 0)
+        return 1;
+    return n * factorial(n - 1);
+}
+
+int shC(int n, vector<int> sharik) {
+    if (sharik.size() == n - 1) {
+        for (int i = 1; i < n + 1; ++i) {
+            if (!contains(i, sharik)) {
+                if (i == sharik.size() + 1) {
+                    return 1;
+                }
+            }
+        }
+        return 0;
+    }
+
+    int s = 0;
+    for (int i = 1; i < n + 1; ++i) {
+        if (!contains(i, sharik)) {
+            if (i == sharik.size() + 1) {
+                s += factorial(n - sharik.size() - 1);
+            } else {
+                vector<int> v2 = sharik;
+                v2.insert(v2.begin(), i);
+                s += shC(n, v2);
+            }
+        }
+    }
+    return s;
+}
+
+void sh() {
+    cout << "Введите N \n";
+    int n;
+    cin >> n;
+    vector<int> ns;
+    cout << shC(n, ns);
 }
 
 int main() {
     SetConsoleOutputCP(CP_UTF8);
     SetConsoleCP(CP_UTF8);
     setlocale(LC_ALL, "ru_RU.UTF-8");
-    hw15();
+//    sh();
+//    sp3();
+    hw45();
+}
+
+
+void gnome(int size, int *a) {
+    int pos = 0;
+    while (pos < size) {
+        if (pos == 0) {
+            pos++;
+        } else {
+            if (a[pos] >= a[pos - 1]) {
+                pos++;
+            } else {
+                int temp = a[pos];
+                a[pos] = a[pos - 1];
+                a[pos - 1] = temp;
+                pos--;
+            }
+        }
+    }
 }

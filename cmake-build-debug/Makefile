@@ -47,19 +47,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\Program Files\CLion 2022.2\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "D:\Programm Files\apps\CLion\ch-0\222.4167.35\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\Program Files\CLion 2022.2\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "D:\Programm Files\apps\CLion\ch-0\222.4167.35\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Code\procedure-codding
+CMAKE_SOURCE_DIR = D:\Projects\procedure-codding
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Code\procedure-codding\cmake-build-debug
+CMAKE_BINARY_DIR = D:\Projects\procedure-codding\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -67,7 +67,7 @@ CMAKE_BINARY_DIR = D:\Code\procedure-codding\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"D:\Program Files\CLion 2022.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"D:\Programm Files\apps\CLion\ch-0\222.4167.35\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -77,7 +77,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"D:\Program Files\CLion 2022.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"D:\Programm Files\apps\CLion\ch-0\222.4167.35\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Code\procedure-codding\cmake-build-debug\CMakeFiles D:\Code\procedure-codding\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Projects\procedure-codding\cmake-build-debug\CMakeFiles D:\Projects\procedure-codding\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Code\procedure-codding\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Projects\procedure-codding\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -128,29 +128,29 @@ automate/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\automate.dir\build.make CMakeFiles/automate.dir/build
 .PHONY : automate/fast
 
-src/Button.obj: src/Button.cpp.obj
-.PHONY : src/Button.obj
+src/Engine.obj: src/Engine.cpp.obj
+.PHONY : src/Engine.obj
 
 # target to build an object file
-src/Button.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\automate.dir\build.make CMakeFiles/automate.dir/src/Button.cpp.obj
-.PHONY : src/Button.cpp.obj
+src/Engine.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\automate.dir\build.make CMakeFiles/automate.dir/src/Engine.cpp.obj
+.PHONY : src/Engine.cpp.obj
 
-src/Button.i: src/Button.cpp.i
-.PHONY : src/Button.i
+src/Engine.i: src/Engine.cpp.i
+.PHONY : src/Engine.i
 
 # target to preprocess a source file
-src/Button.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\automate.dir\build.make CMakeFiles/automate.dir/src/Button.cpp.i
-.PHONY : src/Button.cpp.i
+src/Engine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\automate.dir\build.make CMakeFiles/automate.dir/src/Engine.cpp.i
+.PHONY : src/Engine.cpp.i
 
-src/Button.s: src/Button.cpp.s
-.PHONY : src/Button.s
+src/Engine.s: src/Engine.cpp.s
+.PHONY : src/Engine.s
 
 # target to generate assembly for a file
-src/Button.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\automate.dir\build.make CMakeFiles/automate.dir/src/Button.cpp.s
-.PHONY : src/Button.cpp.s
+src/Engine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\automate.dir\build.make CMakeFiles/automate.dir/src/Engine.cpp.s
+.PHONY : src/Engine.cpp.s
 
 src/Field.obj: src/Field.cpp.obj
 .PHONY : src/Field.obj
@@ -176,197 +176,173 @@ src/Field.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\automate.dir\build.make CMakeFiles/automate.dir/src/Field.cpp.s
 .PHONY : src/Field.cpp.s
 
-src/GABot.obj: src/GABot.cpp.obj
-.PHONY : src/GABot.obj
+src/Main.obj: src/Main.cpp.obj
+.PHONY : src/Main.obj
 
 # target to build an object file
-src/GABot.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\automate.dir\build.make CMakeFiles/automate.dir/src/GABot.cpp.obj
-.PHONY : src/GABot.cpp.obj
+src/Main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\automate.dir\build.make CMakeFiles/automate.dir/src/Main.cpp.obj
+.PHONY : src/Main.cpp.obj
 
-src/GABot.i: src/GABot.cpp.i
-.PHONY : src/GABot.i
+src/Main.i: src/Main.cpp.i
+.PHONY : src/Main.i
 
 # target to preprocess a source file
-src/GABot.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\automate.dir\build.make CMakeFiles/automate.dir/src/GABot.cpp.i
-.PHONY : src/GABot.cpp.i
+src/Main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\automate.dir\build.make CMakeFiles/automate.dir/src/Main.cpp.i
+.PHONY : src/Main.cpp.i
 
-src/GABot.s: src/GABot.cpp.s
-.PHONY : src/GABot.s
+src/Main.s: src/Main.cpp.s
+.PHONY : src/Main.s
 
 # target to generate assembly for a file
-src/GABot.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\automate.dir\build.make CMakeFiles/automate.dir/src/GABot.cpp.s
-.PHONY : src/GABot.cpp.s
+src/Main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\automate.dir\build.make CMakeFiles/automate.dir/src/Main.cpp.s
+.PHONY : src/Main.cpp.s
 
-src/GACore.obj: src/GACore.cpp.obj
-.PHONY : src/GACore.obj
+src/Settings.obj: src/Settings.cpp.obj
+.PHONY : src/Settings.obj
 
 # target to build an object file
-src/GACore.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\automate.dir\build.make CMakeFiles/automate.dir/src/GACore.cpp.obj
-.PHONY : src/GACore.cpp.obj
+src/Settings.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\automate.dir\build.make CMakeFiles/automate.dir/src/Settings.cpp.obj
+.PHONY : src/Settings.cpp.obj
 
-src/GACore.i: src/GACore.cpp.i
-.PHONY : src/GACore.i
+src/Settings.i: src/Settings.cpp.i
+.PHONY : src/Settings.i
 
 # target to preprocess a source file
-src/GACore.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\automate.dir\build.make CMakeFiles/automate.dir/src/GACore.cpp.i
-.PHONY : src/GACore.cpp.i
+src/Settings.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\automate.dir\build.make CMakeFiles/automate.dir/src/Settings.cpp.i
+.PHONY : src/Settings.cpp.i
 
-src/GACore.s: src/GACore.cpp.s
-.PHONY : src/GACore.s
+src/Settings.s: src/Settings.cpp.s
+.PHONY : src/Settings.s
 
 # target to generate assembly for a file
-src/GACore.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\automate.dir\build.make CMakeFiles/automate.dir/src/GACore.cpp.s
-.PHONY : src/GACore.cpp.s
+src/Settings.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\automate.dir\build.make CMakeFiles/automate.dir/src/Settings.cpp.s
+.PHONY : src/Settings.cpp.s
 
-src/draw.obj: src/draw.cpp.obj
-.PHONY : src/draw.obj
+src/genetic/Bot.obj: src/genetic/Bot.cpp.obj
+.PHONY : src/genetic/Bot.obj
 
 # target to build an object file
-src/draw.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\automate.dir\build.make CMakeFiles/automate.dir/src/draw.cpp.obj
-.PHONY : src/draw.cpp.obj
+src/genetic/Bot.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\automate.dir\build.make CMakeFiles/automate.dir/src/genetic/Bot.cpp.obj
+.PHONY : src/genetic/Bot.cpp.obj
 
-src/draw.i: src/draw.cpp.i
-.PHONY : src/draw.i
+src/genetic/Bot.i: src/genetic/Bot.cpp.i
+.PHONY : src/genetic/Bot.i
 
 # target to preprocess a source file
-src/draw.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\automate.dir\build.make CMakeFiles/automate.dir/src/draw.cpp.i
-.PHONY : src/draw.cpp.i
+src/genetic/Bot.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\automate.dir\build.make CMakeFiles/automate.dir/src/genetic/Bot.cpp.i
+.PHONY : src/genetic/Bot.cpp.i
 
-src/draw.s: src/draw.cpp.s
-.PHONY : src/draw.s
+src/genetic/Bot.s: src/genetic/Bot.cpp.s
+.PHONY : src/genetic/Bot.s
 
 # target to generate assembly for a file
-src/draw.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\automate.dir\build.make CMakeFiles/automate.dir/src/draw.cpp.s
-.PHONY : src/draw.cpp.s
+src/genetic/Bot.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\automate.dir\build.make CMakeFiles/automate.dir/src/genetic/Bot.cpp.s
+.PHONY : src/genetic/Bot.cpp.s
 
-src/engine.obj: src/engine.cpp.obj
-.PHONY : src/engine.obj
+src/genetic/GACore.obj: src/genetic/GACore.cpp.obj
+.PHONY : src/genetic/GACore.obj
 
 # target to build an object file
-src/engine.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\automate.dir\build.make CMakeFiles/automate.dir/src/engine.cpp.obj
-.PHONY : src/engine.cpp.obj
+src/genetic/GACore.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\automate.dir\build.make CMakeFiles/automate.dir/src/genetic/GACore.cpp.obj
+.PHONY : src/genetic/GACore.cpp.obj
 
-src/engine.i: src/engine.cpp.i
-.PHONY : src/engine.i
+src/genetic/GACore.i: src/genetic/GACore.cpp.i
+.PHONY : src/genetic/GACore.i
 
 # target to preprocess a source file
-src/engine.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\automate.dir\build.make CMakeFiles/automate.dir/src/engine.cpp.i
-.PHONY : src/engine.cpp.i
+src/genetic/GACore.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\automate.dir\build.make CMakeFiles/automate.dir/src/genetic/GACore.cpp.i
+.PHONY : src/genetic/GACore.cpp.i
 
-src/engine.s: src/engine.cpp.s
-.PHONY : src/engine.s
+src/genetic/GACore.s: src/genetic/GACore.cpp.s
+.PHONY : src/genetic/GACore.s
 
 # target to generate assembly for a file
-src/engine.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\automate.dir\build.make CMakeFiles/automate.dir/src/engine.cpp.s
-.PHONY : src/engine.cpp.s
+src/genetic/GACore.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\automate.dir\build.make CMakeFiles/automate.dir/src/genetic/GACore.cpp.s
+.PHONY : src/genetic/GACore.cpp.s
 
-src/input.obj: src/input.cpp.obj
-.PHONY : src/input.obj
+src/ui/Button.obj: src/ui/Button.cpp.obj
+.PHONY : src/ui/Button.obj
 
 # target to build an object file
-src/input.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\automate.dir\build.make CMakeFiles/automate.dir/src/input.cpp.obj
-.PHONY : src/input.cpp.obj
+src/ui/Button.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\automate.dir\build.make CMakeFiles/automate.dir/src/ui/Button.cpp.obj
+.PHONY : src/ui/Button.cpp.obj
 
-src/input.i: src/input.cpp.i
-.PHONY : src/input.i
+src/ui/Button.i: src/ui/Button.cpp.i
+.PHONY : src/ui/Button.i
 
 # target to preprocess a source file
-src/input.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\automate.dir\build.make CMakeFiles/automate.dir/src/input.cpp.i
-.PHONY : src/input.cpp.i
+src/ui/Button.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\automate.dir\build.make CMakeFiles/automate.dir/src/ui/Button.cpp.i
+.PHONY : src/ui/Button.cpp.i
 
-src/input.s: src/input.cpp.s
-.PHONY : src/input.s
+src/ui/Button.s: src/ui/Button.cpp.s
+.PHONY : src/ui/Button.s
 
 # target to generate assembly for a file
-src/input.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\automate.dir\build.make CMakeFiles/automate.dir/src/input.cpp.s
-.PHONY : src/input.cpp.s
+src/ui/Button.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\automate.dir\build.make CMakeFiles/automate.dir/src/ui/Button.cpp.s
+.PHONY : src/ui/Button.cpp.s
 
-src/main.obj: src/main.cpp.obj
-.PHONY : src/main.obj
+src/ui/MainWindow.obj: src/ui/MainWindow.cpp.obj
+.PHONY : src/ui/MainWindow.obj
 
 # target to build an object file
-src/main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\automate.dir\build.make CMakeFiles/automate.dir/src/main.cpp.obj
-.PHONY : src/main.cpp.obj
+src/ui/MainWindow.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\automate.dir\build.make CMakeFiles/automate.dir/src/ui/MainWindow.cpp.obj
+.PHONY : src/ui/MainWindow.cpp.obj
 
-src/main.i: src/main.cpp.i
-.PHONY : src/main.i
+src/ui/MainWindow.i: src/ui/MainWindow.cpp.i
+.PHONY : src/ui/MainWindow.i
 
 # target to preprocess a source file
-src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\automate.dir\build.make CMakeFiles/automate.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
+src/ui/MainWindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\automate.dir\build.make CMakeFiles/automate.dir/src/ui/MainWindow.cpp.i
+.PHONY : src/ui/MainWindow.cpp.i
 
-src/main.s: src/main.cpp.s
-.PHONY : src/main.s
+src/ui/MainWindow.s: src/ui/MainWindow.cpp.s
+.PHONY : src/ui/MainWindow.s
 
 # target to generate assembly for a file
-src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\automate.dir\build.make CMakeFiles/automate.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
+src/ui/MainWindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\automate.dir\build.make CMakeFiles/automate.dir/src/ui/MainWindow.cpp.s
+.PHONY : src/ui/MainWindow.cpp.s
 
-src/settings.obj: src/settings.cpp.obj
-.PHONY : src/settings.obj
+src/ui/SettingsWindow.obj: src/ui/SettingsWindow.cpp.obj
+.PHONY : src/ui/SettingsWindow.obj
 
 # target to build an object file
-src/settings.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\automate.dir\build.make CMakeFiles/automate.dir/src/settings.cpp.obj
-.PHONY : src/settings.cpp.obj
+src/ui/SettingsWindow.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\automate.dir\build.make CMakeFiles/automate.dir/src/ui/SettingsWindow.cpp.obj
+.PHONY : src/ui/SettingsWindow.cpp.obj
 
-src/settings.i: src/settings.cpp.i
-.PHONY : src/settings.i
-
-# target to preprocess a source file
-src/settings.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\automate.dir\build.make CMakeFiles/automate.dir/src/settings.cpp.i
-.PHONY : src/settings.cpp.i
-
-src/settings.s: src/settings.cpp.s
-.PHONY : src/settings.s
-
-# target to generate assembly for a file
-src/settings.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\automate.dir\build.make CMakeFiles/automate.dir/src/settings.cpp.s
-.PHONY : src/settings.cpp.s
-
-src/settings_window.obj: src/settings_window.cpp.obj
-.PHONY : src/settings_window.obj
-
-# target to build an object file
-src/settings_window.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\automate.dir\build.make CMakeFiles/automate.dir/src/settings_window.cpp.obj
-.PHONY : src/settings_window.cpp.obj
-
-src/settings_window.i: src/settings_window.cpp.i
-.PHONY : src/settings_window.i
+src/ui/SettingsWindow.i: src/ui/SettingsWindow.cpp.i
+.PHONY : src/ui/SettingsWindow.i
 
 # target to preprocess a source file
-src/settings_window.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\automate.dir\build.make CMakeFiles/automate.dir/src/settings_window.cpp.i
-.PHONY : src/settings_window.cpp.i
+src/ui/SettingsWindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\automate.dir\build.make CMakeFiles/automate.dir/src/ui/SettingsWindow.cpp.i
+.PHONY : src/ui/SettingsWindow.cpp.i
 
-src/settings_window.s: src/settings_window.cpp.s
-.PHONY : src/settings_window.s
+src/ui/SettingsWindow.s: src/ui/SettingsWindow.cpp.s
+.PHONY : src/ui/SettingsWindow.s
 
 # target to generate assembly for a file
-src/settings_window.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\automate.dir\build.make CMakeFiles/automate.dir/src/settings_window.cpp.s
-.PHONY : src/settings_window.cpp.s
+src/ui/SettingsWindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\automate.dir\build.make CMakeFiles/automate.dir/src/ui/SettingsWindow.cpp.s
+.PHONY : src/ui/SettingsWindow.cpp.s
 
 # Help Target
 help:
@@ -377,36 +353,33 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... automate
-	@echo ... src/Button.obj
-	@echo ... src/Button.i
-	@echo ... src/Button.s
+	@echo ... src/Engine.obj
+	@echo ... src/Engine.i
+	@echo ... src/Engine.s
 	@echo ... src/Field.obj
 	@echo ... src/Field.i
 	@echo ... src/Field.s
-	@echo ... src/GABot.obj
-	@echo ... src/GABot.i
-	@echo ... src/GABot.s
-	@echo ... src/GACore.obj
-	@echo ... src/GACore.i
-	@echo ... src/GACore.s
-	@echo ... src/draw.obj
-	@echo ... src/draw.i
-	@echo ... src/draw.s
-	@echo ... src/engine.obj
-	@echo ... src/engine.i
-	@echo ... src/engine.s
-	@echo ... src/input.obj
-	@echo ... src/input.i
-	@echo ... src/input.s
-	@echo ... src/main.obj
-	@echo ... src/main.i
-	@echo ... src/main.s
-	@echo ... src/settings.obj
-	@echo ... src/settings.i
-	@echo ... src/settings.s
-	@echo ... src/settings_window.obj
-	@echo ... src/settings_window.i
-	@echo ... src/settings_window.s
+	@echo ... src/Main.obj
+	@echo ... src/Main.i
+	@echo ... src/Main.s
+	@echo ... src/Settings.obj
+	@echo ... src/Settings.i
+	@echo ... src/Settings.s
+	@echo ... src/genetic/Bot.obj
+	@echo ... src/genetic/Bot.i
+	@echo ... src/genetic/Bot.s
+	@echo ... src/genetic/GACore.obj
+	@echo ... src/genetic/GACore.i
+	@echo ... src/genetic/GACore.s
+	@echo ... src/ui/Button.obj
+	@echo ... src/ui/Button.i
+	@echo ... src/ui/Button.s
+	@echo ... src/ui/MainWindow.obj
+	@echo ... src/ui/MainWindow.i
+	@echo ... src/ui/MainWindow.s
+	@echo ... src/ui/SettingsWindow.obj
+	@echo ... src/ui/SettingsWindow.i
+	@echo ... src/ui/SettingsWindow.s
 .PHONY : help
 
 

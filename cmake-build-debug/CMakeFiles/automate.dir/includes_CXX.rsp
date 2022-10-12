@@ -1,1 +1,1 @@
--I"D:/Code/procedure-codding/headers" -I/usr/include -Ic:/SFML/include -IC:/SFML/include
+-I"D:/Projects/procedure-codding/headers" -I/usr/include -I"D:/Libraries/SFML-2.5.1/include"
