@@ -7,13 +7,13 @@
 
 
 #include "GABot.h"
-#include "settings.h"
-#include "values.h"
+#include "Settings.h"
+#include "Values.h"
 
 
 class GACore {
 public:
-    settings settings;
+    Settings settings;
 
     void baubleSort(std::vector<GABot> &bots) {
         for (int i = 0; i < bots.size(); ++i) {
@@ -34,7 +34,7 @@ public:
             for (int j = 0; j < (settings).allCount(); ++j) {
                 int r = rand() % (bots.size() / 4);
                 if (bots[r].commands.size() > j) {
-                    if (rand() % values::MUTATION_RATE == 1) {
+                    if (rand() % Values::MUTATION_RATE == 1) {
                         nbot.addCommand(rand() % 7 + 1);
                     } else {
                         nbot.addCommand(bots[r].commands[j]);
@@ -54,7 +54,7 @@ public:
             GABot nbot;
             for (int j = 0; j < (settings).allCount(); ++j) {
                 if (bots[0].commands.size() > j) {
-                    if (rand() % values::MUTATION_BEST_RATE == 1) {
+                    if (rand() % Values::MUTATION_BEST_RATE == 1) {
                         nbot.addCommand(rand() % 7 + 1);
                     } else {
                         nbot.addCommand(bots[0].commands[j]);

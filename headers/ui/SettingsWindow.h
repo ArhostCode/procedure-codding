@@ -2,23 +2,23 @@
 // Created by ardyc-user on 17.09.2022.
 //
 
-#ifndef AUTOMATE_SETTINGS_WINDOW_H
-#define AUTOMATE_SETTINGS_WINDOW_H
+#ifndef AUTOMATE_SETTINGSWINDOW_H
+#define AUTOMATE_SETTINGSWINDOW_H
 
 #include <SFML/Graphics.hpp>
 #include <SFML/Graphics/RectangleShape.hpp>
 using namespace sf;
 #include <vector>
-#include "settings.h"
+#include "Settings.h"
 #include "Button.h"
 
 using namespace std;
 
-class settings_window {
+class SettingsWindow {
 public:
     sf::Texture texture;
-    settings_window();
-    settings settings;
+    SettingsWindow();
+    Settings settings;
     vector<Button> buttons;
     void run();
     void input();
@@ -27,4 +27,4 @@ public:
 };
 
 
-#endif //AUTOMATE_SETTINGS_WINDOW_H
+#endif //AUTOMATE_SETTINGSWINDOW_H

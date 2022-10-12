@@ -2,11 +2,14 @@
 // Created by ardyc-user on 17.09.2022.
 //
 #include <iostream>
-#include "settings_window.h"
+#include "ui/SettingsWindow.h"
+#include "Engine.hpp"
+#include "ui/MainWindow.h"
 #include <SFML/Graphics.hpp>
 #include <SFML/Graphics/RectangleShape.hpp>
+#include "Engine.hpp"
 
-settings_window::settings_window() {
+SettingsWindow::SettingsWindow() {
     Vector2f resolution = Vector2f(900, 550);
     window.create(VideoMode(resolution.x, resolution.y), "Automate_Settings", Style::Default);
     window.setFramerateLimit(60);
@@ -26,14 +29,14 @@ settings_window::settings_window() {
 
 }
 
-void settings_window::run() {
+void SettingsWindow::run() {
     while (window.isOpen()) {
         input();
         draw();
     }
 }
 
-void settings_window::draw() {
+void SettingsWindow::draw() {
     window.clear(Color::White);
     sf::Sprite sprite;
     sprite.setTexture(texture);
@@ -98,6 +101,71 @@ void settings_window::draw() {
 
 
     window.display();
+}
+
+void SettingsWindow::input() {
+    Event event{};
+
+    while (window.pollEvent(event)) {
+        // Window closed
+        if (event.type == Event::Closed) {
+            window.close();
+        }
+
+        // Handle Keyboard Input
+        if (event.type == Event::KeyPressed) {
+            // Quit
+            if (Keyboard::isKeyPressed(Keyboard::Escape)) {
+                window.close();
+            }
+
+        }
+
+        if (event.type == Event::MouseButtonPressed) {
+
+            for (auto &button: buttons) {
+                int x = Mouse::getPosition(window).x;
+                int y = Mouse::getPosition(window).y;
+
+
+                if (y >= button.posy && y <= button.posy + button.sy && x >= button.posx && x <= button.posx + button.sx) {
+                    if (button.id == 0) {
+                        settings.squareCountMax -= 1;
+                    }
+                    if (button.id == 1) {
+                        settings.rectCountMax -= 1;
+                    }
+                    if (button.id == 2) {
+                        settings.stairsCountMax -= 1;
+                    }
+                    if (button.id == 3) {
+                        settings.stairs2CountMax -= 1;
+                    }
+                    if (button.id == 4) {
+                        settings.squareCountMax += 1;
+                    }
+                    if (button.id == 5) {
+                        settings.rectCountMax += 1;
+                    }
+                    if (button.id == 6) {
+                        settings.stairsCountMax += 1;
+                    }
+                    if (button.id == 7) {
+                        settings.stairs2CountMax += 1;
+                    }
+                    if (button.id == 8) {
+                        window.close();
+                        Engine engine;
+                        engine.settings = settings;
+                        engine.initialize();
+                        MainWindow mainWindow(engine);
+                        mainWindow.run();
+                    }
+                }
+
+            }
+        }
+    }
 }
 
 
