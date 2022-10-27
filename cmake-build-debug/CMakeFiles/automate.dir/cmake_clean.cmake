@@ -3,8 +3,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/automate.dir/src/Engine.cpp.obj.d"
   "CMakeFiles/automate.dir/src/Field.cpp.obj"
   "CMakeFiles/automate.dir/src/Field.cpp.obj.d"
-  "CMakeFiles/automate.dir/src/Main.cpp.obj"
-  "CMakeFiles/automate.dir/src/Main.cpp.obj.d"
   "CMakeFiles/automate.dir/src/Settings.cpp.obj"
   "CMakeFiles/automate.dir/src/Settings.cpp.obj.d"
   "CMakeFiles/automate.dir/src/genetic/Bot.cpp.obj"

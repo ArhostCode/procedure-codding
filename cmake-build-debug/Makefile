@@ -176,30 +176,6 @@ src/Field.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\automate.dir\build.make CMakeFiles/automate.dir/src/Field.cpp.s
 .PHONY : src/Field.cpp.s
 
-src/Main.obj: src/Main.cpp.obj
-.PHONY : src/Main.obj
-
-# target to build an object file
-src/Main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\automate.dir\build.make CMakeFiles/automate.dir/src/Main.cpp.obj
-.PHONY : src/Main.cpp.obj
-
-src/Main.i: src/Main.cpp.i
-.PHONY : src/Main.i
-
-# target to preprocess a source file
-src/Main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\automate.dir\build.make CMakeFiles/automate.dir/src/Main.cpp.i
-.PHONY : src/Main.cpp.i
-
-src/Main.s: src/Main.cpp.s
-.PHONY : src/Main.s
-
-# target to generate assembly for a file
-src/Main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\automate.dir\build.make CMakeFiles/automate.dir/src/Main.cpp.s
-.PHONY : src/Main.cpp.s
-
 src/Settings.obj: src/Settings.cpp.obj
 .PHONY : src/Settings.obj
 
@@ -359,9 +335,6 @@ help:
 	@echo ... src/Field.obj
 	@echo ... src/Field.i
 	@echo ... src/Field.s
-	@echo ... src/Main.obj
-	@echo ... src/Main.i
-	@echo ... src/Main.s
 	@echo ... src/Settings.obj
 	@echo ... src/Settings.i
 	@echo ... src/Settings.s

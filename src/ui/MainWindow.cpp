@@ -28,7 +28,6 @@ void MainWindow::run() {
 
     bool futureReady = false;
 
-
     bool cont = true;
     int k = 0;
 

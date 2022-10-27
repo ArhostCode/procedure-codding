@@ -1,10 +1,7 @@
 #include <iostream>
-#include <thread>
 #include "Engine.hpp"
 #include "genetic/Bot.h"
-#include "genetic/GACore.h"
 #include "Values.h"
-#include "future"
 
 void Engine::initialize() {
     Engine::field.initialize();

@@ -147,32 +147,6 @@ CMakeFiles/automate.dir/src/Engine.cpp.obj: \
  D:/Programm\ Files/apps/CLion/ch-0/222.4167.35/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ostream.tcc \
  D:/Programm\ Files/apps/CLion/ch-0/222.4167.35/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/istream \
  D:/Programm\ Files/apps/CLion/ch-0/222.4167.35/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc \
- D:/Programm\ Files/apps/CLion/ch-0/222.4167.35/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/thread \
- D:/Programm\ Files/apps/CLion/ch-0/222.4167.35/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/stop_token \
- D:/Programm\ Files/apps/CLion/ch-0/222.4167.35/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/atomic \
- D:/Programm\ Files/apps/CLion/ch-0/222.4167.35/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/atomic_base.h \
- D:/Programm\ Files/apps/CLion/ch-0/222.4167.35/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/atomic_lockfree_defines.h \
- D:/Programm\ Files/apps/CLion/ch-0/222.4167.35/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/atomic_wait.h \
- D:/Programm\ Files/apps/CLion/ch-0/222.4167.35/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/std_mutex.h \
- D:/Programm\ Files/apps/CLion/ch-0/222.4167.35/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/std_thread.h \
- D:/Programm\ Files/apps/CLion/ch-0/222.4167.35/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/tuple \
- D:/Programm\ Files/apps/CLion/ch-0/222.4167.35/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/utility \
- D:/Programm\ Files/apps/CLion/ch-0/222.4167.35/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_relops.h \
- D:/Programm\ Files/apps/CLion/ch-0/222.4167.35/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/array \
- D:/Programm\ Files/apps/CLion/ch-0/222.4167.35/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/uses_allocator.h \
- D:/Programm\ Files/apps/CLion/ch-0/222.4167.35/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/invoke.h \
- D:/Programm\ Files/apps/CLion/ch-0/222.4167.35/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/refwrap.h \
- D:/Programm\ Files/apps/CLion/ch-0/222.4167.35/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/unique_ptr.h \
- D:/Programm\ Files/apps/CLion/ch-0/222.4167.35/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/semaphore \
- D:/Programm\ Files/apps/CLion/ch-0/222.4167.35/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/semaphore_base.h \
- D:/Programm\ Files/apps/CLion/ch-0/222.4167.35/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/atomic_timed_wait.h \
- D:/Programm\ Files/apps/CLion/ch-0/222.4167.35/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/this_thread_sleep.h \
- D:/Programm\ Files/apps/CLion/ch-0/222.4167.35/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/chrono \
- D:/Programm\ Files/apps/CLion/ch-0/222.4167.35/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ratio \
- D:/Programm\ Files/apps/CLion/ch-0/222.4167.35/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/limits \
- D:/Programm\ Files/apps/CLion/ch-0/222.4167.35/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ctime \
- D:/Programm\ Files/apps/CLion/ch-0/222.4167.35/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/parse_numbers.h \
- D:/Programm\ Files/apps/CLion/ch-0/222.4167.35/bin/mingw/x86_64-w64-mingw32/include/semaphore.h \
  D:/Projects/procedure-codding/headers/Engine.hpp \
  D:/Libraries/SFML-2.5.1/include/SFML/Graphics.hpp \
  D:/Libraries/SFML-2.5.1/include/SFML/Window.hpp \
@@ -192,13 +166,20 @@ CMakeFiles/automate.dir/src/Engine.cpp.obj: \
  D:/Libraries/SFML-2.5.1/include/SFML/System/String.hpp \
  D:/Libraries/SFML-2.5.1/include/SFML/System/Utf.hpp \
  D:/Programm\ Files/apps/CLion/ch-0/222.4167.35/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/algorithm \
+ D:/Programm\ Files/apps/CLion/ch-0/222.4167.35/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/utility \
+ D:/Programm\ Files/apps/CLion/ch-0/222.4167.35/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_relops.h \
  D:/Programm\ Files/apps/CLion/ch-0/222.4167.35/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ranges_algo.h \
  D:/Programm\ Files/apps/CLion/ch-0/222.4167.35/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ranges_algobase.h \
  D:/Programm\ Files/apps/CLion/ch-0/222.4167.35/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iterator \
  D:/Programm\ Files/apps/CLion/ch-0/222.4167.35/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stream_iterator.h \
+ D:/Programm\ Files/apps/CLion/ch-0/222.4167.35/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/invoke.h \
  D:/Programm\ Files/apps/CLion/ch-0/222.4167.35/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ranges_util.h \
  D:/Programm\ Files/apps/CLion/ch-0/222.4167.35/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/pstl/glue_algorithm_defs.h \
  D:/Programm\ Files/apps/CLion/ch-0/222.4167.35/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/functional \
+ D:/Programm\ Files/apps/CLion/ch-0/222.4167.35/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/tuple \
+ D:/Programm\ Files/apps/CLion/ch-0/222.4167.35/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/array \
+ D:/Programm\ Files/apps/CLion/ch-0/222.4167.35/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/uses_allocator.h \
+ D:/Programm\ Files/apps/CLion/ch-0/222.4167.35/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/refwrap.h \
  D:/Programm\ Files/apps/CLion/ch-0/222.4167.35/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/std_function.h \
  D:/Programm\ Files/apps/CLion/ch-0/222.4167.35/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/unordered_map \
  D:/Programm\ Files/apps/CLion/ch-0/222.4167.35/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/aligned_buffer.h \
@@ -215,11 +196,13 @@ CMakeFiles/automate.dir/src/Engine.cpp.obj: \
  D:/Programm\ Files/apps/CLion/ch-0/222.4167.35/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/pstl/execution_defs.h \
  D:/Programm\ Files/apps/CLion/ch-0/222.4167.35/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/locale \
  D:/Programm\ Files/apps/CLion/ch-0/222.4167.35/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_facets_nonio.h \
+ D:/Programm\ Files/apps/CLion/ch-0/222.4167.35/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ctime \
  D:/Programm\ Files/apps/CLion/ch-0/222.4167.35/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/time_members.h \
  D:/Programm\ Files/apps/CLion/ch-0/222.4167.35/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/messages_members.h \
  D:/Programm\ Files/apps/CLion/ch-0/222.4167.35/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/codecvt.h \
  D:/Programm\ Files/apps/CLion/ch-0/222.4167.35/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_facets_nonio.tcc \
  D:/Programm\ Files/apps/CLion/ch-0/222.4167.35/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_conv.h \
+ D:/Programm\ Files/apps/CLion/ch-0/222.4167.35/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/unique_ptr.h \
  D:/Libraries/SFML-2.5.1/include/SFML/System/Utf.inl \
  D:/Libraries/SFML-2.5.1/include/SFML/System/String.inl \
  D:/Libraries/SFML-2.5.1/include/SFML/System/Thread.hpp \
@@ -288,14 +271,4 @@ CMakeFiles/automate.dir/src/Engine.cpp.obj: \
  D:/Projects/procedure-codding/headers/genetic/Bot.h \
  D:/Projects/procedure-codding/headers/Settings.h \
  D:/Projects/procedure-codding/headers/Values.h \
- D:/Projects/procedure-codding/headers/genetic/Bot.h \
- D:/Projects/procedure-codding/headers/genetic/GACore.h \
- D:/Programm\ Files/apps/CLion/ch-0/222.4167.35/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/future \
- D:/Programm\ Files/apps/CLion/ch-0/222.4167.35/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/mutex \
- D:/Programm\ Files/apps/CLion/ch-0/222.4167.35/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/unique_lock.h \
- D:/Programm\ Files/apps/CLion/ch-0/222.4167.35/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/condition_variable \
- D:/Programm\ Files/apps/CLion/ch-0/222.4167.35/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/shared_ptr.h \
- D:/Programm\ Files/apps/CLion/ch-0/222.4167.35/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/shared_ptr_base.h \
- D:/Programm\ Files/apps/CLion/ch-0/222.4167.35/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/allocated_ptr.h \
- D:/Programm\ Files/apps/CLion/ch-0/222.4167.35/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/concurrence.h \
- D:/Programm\ Files/apps/CLion/ch-0/222.4167.35/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/atomic_futex.h
+ D:/Projects/procedure-codding/headers/genetic/Bot.h

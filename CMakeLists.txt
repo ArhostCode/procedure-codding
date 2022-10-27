@@ -3,7 +3,7 @@ project(automate)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(automate src/Main.cpp src/Engine.cpp headers/Engine.hpp src/Field.cpp headers/Field.h src/Settings.cpp headers/Settings.h src/genetic/Bot.cpp headers/genetic/Bot.h src/genetic/GACore.cpp headers/genetic/GACore.h src/ui/SettingsWindow.cpp headers/ui/SettingsWindow.h src/ui/Button.cpp headers/ui/Button.h headers/Values.h src/ui/MainWindow.cpp headers/ui/MainWindow.h)
+add_executable(automate src/Engine.cpp headers/Engine.hpp src/Field.cpp headers/Field.h src/Settings.cpp headers/Settings.h src/genetic/Bot.cpp headers/genetic/Bot.h src/genetic/GACore.cpp headers/genetic/GACore.h src/ui/SettingsWindow.cpp headers/ui/SettingsWindow.h src/ui/Button.cpp headers/ui/Button.h headers/Values.h src/ui/MainWindow.cpp headers/ui/MainWindow.h)
 #add_executable(automate src/hw.cpp)
 
 include_directories(headers /usr/include D:\\\\Libraries\\SFML-2.5.1\\include)

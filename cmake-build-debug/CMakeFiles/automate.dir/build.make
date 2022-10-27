@@ -68,26 +68,11 @@ include CMakeFiles/automate.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/automate.dir/flags.make
 
-CMakeFiles/automate.dir/src/Main.cpp.obj: CMakeFiles/automate.dir/flags.make
-CMakeFiles/automate.dir/src/Main.cpp.obj: CMakeFiles/automate.dir/includes_CXX.rsp
-CMakeFiles/automate.dir/src/Main.cpp.obj: ../src/Main.cpp
-CMakeFiles/automate.dir/src/Main.cpp.obj: CMakeFiles/automate.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\procedure-codding\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/automate.dir/src/Main.cpp.obj"
-	"D:\Programm Files\apps\CLion\ch-0\222.4167.35\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/automate.dir/src/Main.cpp.obj -MF CMakeFiles\automate.dir\src\Main.cpp.obj.d -o CMakeFiles\automate.dir\src\Main.cpp.obj -c D:\Projects\procedure-codding\src\Main.cpp
-
-CMakeFiles/automate.dir/src/Main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/automate.dir/src/Main.cpp.i"
-	"D:\Programm Files\apps\CLion\ch-0\222.4167.35\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Projects\procedure-codding\src\Main.cpp > CMakeFiles\automate.dir\src\Main.cpp.i
-
-CMakeFiles/automate.dir/src/Main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/automate.dir/src/Main.cpp.s"
-	"D:\Programm Files\apps\CLion\ch-0\222.4167.35\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Projects\procedure-codding\src\Main.cpp -o CMakeFiles\automate.dir\src\Main.cpp.s
-
 CMakeFiles/automate.dir/src/Engine.cpp.obj: CMakeFiles/automate.dir/flags.make
 CMakeFiles/automate.dir/src/Engine.cpp.obj: CMakeFiles/automate.dir/includes_CXX.rsp
 CMakeFiles/automate.dir/src/Engine.cpp.obj: ../src/Engine.cpp
 CMakeFiles/automate.dir/src/Engine.cpp.obj: CMakeFiles/automate.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\procedure-codding\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/automate.dir/src/Engine.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\procedure-codding\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/automate.dir/src/Engine.cpp.obj"
 	"D:\Programm Files\apps\CLion\ch-0\222.4167.35\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/automate.dir/src/Engine.cpp.obj -MF CMakeFiles\automate.dir\src\Engine.cpp.obj.d -o CMakeFiles\automate.dir\src\Engine.cpp.obj -c D:\Projects\procedure-codding\src\Engine.cpp
 
 CMakeFiles/automate.dir/src/Engine.cpp.i: cmake_force
@@ -102,7 +87,7 @@ CMakeFiles/automate.dir/src/Field.cpp.obj: CMakeFiles/automate.dir/flags.make
 CMakeFiles/automate.dir/src/Field.cpp.obj: CMakeFiles/automate.dir/includes_CXX.rsp
 CMakeFiles/automate.dir/src/Field.cpp.obj: ../src/Field.cpp
 CMakeFiles/automate.dir/src/Field.cpp.obj: CMakeFiles/automate.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\procedure-codding\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/automate.dir/src/Field.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\procedure-codding\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/automate.dir/src/Field.cpp.obj"
 	"D:\Programm Files\apps\CLion\ch-0\222.4167.35\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/automate.dir/src/Field.cpp.obj -MF CMakeFiles\automate.dir\src\Field.cpp.obj.d -o CMakeFiles\automate.dir\src\Field.cpp.obj -c D:\Projects\procedure-codding\src\Field.cpp
 
 CMakeFiles/automate.dir/src/Field.cpp.i: cmake_force
@@ -117,7 +102,7 @@ CMakeFiles/automate.dir/src/Settings.cpp.obj: CMakeFiles/automate.dir/flags.make
 CMakeFiles/automate.dir/src/Settings.cpp.obj: CMakeFiles/automate.dir/includes_CXX.rsp
 CMakeFiles/automate.dir/src/Settings.cpp.obj: ../src/Settings.cpp
 CMakeFiles/automate.dir/src/Settings.cpp.obj: CMakeFiles/automate.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\procedure-codding\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/automate.dir/src/Settings.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\procedure-codding\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/automate.dir/src/Settings.cpp.obj"
 	"D:\Programm Files\apps\CLion\ch-0\222.4167.35\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/automate.dir/src/Settings.cpp.obj -MF CMakeFiles\automate.dir\src\Settings.cpp.obj.d -o CMakeFiles\automate.dir\src\Settings.cpp.obj -c D:\Projects\procedure-codding\src\Settings.cpp
 
 CMakeFiles/automate.dir/src/Settings.cpp.i: cmake_force
@@ -132,7 +117,7 @@ CMakeFiles/automate.dir/src/genetic/Bot.cpp.obj: CMakeFiles/automate.dir/flags.m
 CMakeFiles/automate.dir/src/genetic/Bot.cpp.obj: CMakeFiles/automate.dir/includes_CXX.rsp
 CMakeFiles/automate.dir/src/genetic/Bot.cpp.obj: ../src/genetic/Bot.cpp
 CMakeFiles/automate.dir/src/genetic/Bot.cpp.obj: CMakeFiles/automate.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\procedure-codding\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/automate.dir/src/genetic/Bot.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\procedure-codding\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/automate.dir/src/genetic/Bot.cpp.obj"
 	"D:\Programm Files\apps\CLion\ch-0\222.4167.35\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/automate.dir/src/genetic/Bot.cpp.obj -MF CMakeFiles\automate.dir\src\genetic\Bot.cpp.obj.d -o CMakeFiles\automate.dir\src\genetic\Bot.cpp.obj -c D:\Projects\procedure-codding\src\genetic\Bot.cpp
 
 CMakeFiles/automate.dir/src/genetic/Bot.cpp.i: cmake_force
@@ -147,7 +132,7 @@ CMakeFiles/automate.dir/src/genetic/GACore.cpp.obj: CMakeFiles/automate.dir/flag
 CMakeFiles/automate.dir/src/genetic/GACore.cpp.obj: CMakeFiles/automate.dir/includes_CXX.rsp
 CMakeFiles/automate.dir/src/genetic/GACore.cpp.obj: ../src/genetic/GACore.cpp
 CMakeFiles/automate.dir/src/genetic/GACore.cpp.obj: CMakeFiles/automate.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\procedure-codding\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/automate.dir/src/genetic/GACore.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\procedure-codding\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/automate.dir/src/genetic/GACore.cpp.obj"
 	"D:\Programm Files\apps\CLion\ch-0\222.4167.35\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/automate.dir/src/genetic/GACore.cpp.obj -MF CMakeFiles\automate.dir\src\genetic\GACore.cpp.obj.d -o CMakeFiles\automate.dir\src\genetic\GACore.cpp.obj -c D:\Projects\procedure-codding\src\genetic\GACore.cpp
 
 CMakeFiles/automate.dir/src/genetic/GACore.cpp.i: cmake_force
@@ -162,7 +147,7 @@ CMakeFiles/automate.dir/src/ui/SettingsWindow.cpp.obj: CMakeFiles/automate.dir/f
 CMakeFiles/automate.dir/src/ui/SettingsWindow.cpp.obj: CMakeFiles/automate.dir/includes_CXX.rsp
 CMakeFiles/automate.dir/src/ui/SettingsWindow.cpp.obj: ../src/ui/SettingsWindow.cpp
 CMakeFiles/automate.dir/src/ui/SettingsWindow.cpp.obj: CMakeFiles/automate.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\procedure-codding\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/automate.dir/src/ui/SettingsWindow.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\procedure-codding\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/automate.dir/src/ui/SettingsWindow.cpp.obj"
 	"D:\Programm Files\apps\CLion\ch-0\222.4167.35\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/automate.dir/src/ui/SettingsWindow.cpp.obj -MF CMakeFiles\automate.dir\src\ui\SettingsWindow.cpp.obj.d -o CMakeFiles\automate.dir\src\ui\SettingsWindow.cpp.obj -c D:\Projects\procedure-codding\src\ui\SettingsWindow.cpp
 
 CMakeFiles/automate.dir/src/ui/SettingsWindow.cpp.i: cmake_force
@@ -177,7 +162,7 @@ CMakeFiles/automate.dir/src/ui/Button.cpp.obj: CMakeFiles/automate.dir/flags.mak
 CMakeFiles/automate.dir/src/ui/Button.cpp.obj: CMakeFiles/automate.dir/includes_CXX.rsp
 CMakeFiles/automate.dir/src/ui/Button.cpp.obj: ../src/ui/Button.cpp
 CMakeFiles/automate.dir/src/ui/Button.cpp.obj: CMakeFiles/automate.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\procedure-codding\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/automate.dir/src/ui/Button.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\procedure-codding\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/automate.dir/src/ui/Button.cpp.obj"
 	"D:\Programm Files\apps\CLion\ch-0\222.4167.35\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/automate.dir/src/ui/Button.cpp.obj -MF CMakeFiles\automate.dir\src\ui\Button.cpp.obj.d -o CMakeFiles\automate.dir\src\ui\Button.cpp.obj -c D:\Projects\procedure-codding\src\ui\Button.cpp
 
 CMakeFiles/automate.dir/src/ui/Button.cpp.i: cmake_force
@@ -192,7 +177,7 @@ CMakeFiles/automate.dir/src/ui/MainWindow.cpp.obj: CMakeFiles/automate.dir/flags
 CMakeFiles/automate.dir/src/ui/MainWindow.cpp.obj: CMakeFiles/automate.dir/includes_CXX.rsp
 CMakeFiles/automate.dir/src/ui/MainWindow.cpp.obj: ../src/ui/MainWindow.cpp
 CMakeFiles/automate.dir/src/ui/MainWindow.cpp.obj: CMakeFiles/automate.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\procedure-codding\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/automate.dir/src/ui/MainWindow.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\procedure-codding\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/automate.dir/src/ui/MainWindow.cpp.obj"
 	"D:\Programm Files\apps\CLion\ch-0\222.4167.35\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/automate.dir/src/ui/MainWindow.cpp.obj -MF CMakeFiles\automate.dir\src\ui\MainWindow.cpp.obj.d -o CMakeFiles\automate.dir\src\ui\MainWindow.cpp.obj -c D:\Projects\procedure-codding\src\ui\MainWindow.cpp
 
 CMakeFiles/automate.dir/src/ui/MainWindow.cpp.i: cmake_force
@@ -205,7 +190,6 @@ CMakeFiles/automate.dir/src/ui/MainWindow.cpp.s: cmake_force
 
 # Object files for target automate
 automate_OBJECTS = \
-"CMakeFiles/automate.dir/src/Main.cpp.obj" \
 "CMakeFiles/automate.dir/src/Engine.cpp.obj" \
 "CMakeFiles/automate.dir/src/Field.cpp.obj" \
 "CMakeFiles/automate.dir/src/Settings.cpp.obj" \
@@ -218,7 +202,6 @@ automate_OBJECTS = \
 # External object files for target automate
 automate_EXTERNAL_OBJECTS =
 
-automate.exe: CMakeFiles/automate.dir/src/Main.cpp.obj
 automate.exe: CMakeFiles/automate.dir/src/Engine.cpp.obj
 automate.exe: CMakeFiles/automate.dir/src/Field.cpp.obj
 automate.exe: CMakeFiles/automate.dir/src/Settings.cpp.obj
@@ -236,7 +219,7 @@ automate.exe: D:/Libraries/SFML-2.5.1/lib/libsfml-audio-d.a
 automate.exe: CMakeFiles/automate.dir/linklibs.rsp
 automate.exe: CMakeFiles/automate.dir/objects1.rsp
 automate.exe: CMakeFiles/automate.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Projects\procedure-codding\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable automate.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Projects\procedure-codding\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable automate.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\automate.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

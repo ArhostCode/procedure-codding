@@ -13,7 +13,6 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/Projects/procedure-codding/src/Settings.cpp" "CMakeFiles/automate.dir/src/Settings.cpp.obj" "gcc" "CMakeFiles/automate.dir/src/Settings.cpp.obj.d"
   "D:/Projects/procedure-codding/src/genetic/Bot.cpp" "CMakeFiles/automate.dir/src/genetic/Bot.cpp.obj" "gcc" "CMakeFiles/automate.dir/src/genetic/Bot.cpp.obj.d"
   "D:/Projects/procedure-codding/src/genetic/GACore.cpp" "CMakeFiles/automate.dir/src/genetic/GACore.cpp.obj" "gcc" "CMakeFiles/automate.dir/src/genetic/GACore.cpp.obj.d"
-  "D:/Projects/procedure-codding/src/Main.cpp" "CMakeFiles/automate.dir/src/main.cpp.obj" "gcc" "CMakeFiles/automate.dir/src/main.cpp.obj.d"
   "D:/Projects/procedure-codding/src/ui/Button.cpp" "CMakeFiles/automate.dir/src/ui/Button.cpp.obj" "gcc" "CMakeFiles/automate.dir/src/ui/Button.cpp.obj.d"
   "D:/Projects/procedure-codding/src/ui/MainWindow.cpp" "CMakeFiles/automate.dir/src/ui/MainWindow.cpp.obj" "gcc" "CMakeFiles/automate.dir/src/ui/MainWindow.cpp.obj.d"
   "D:/Projects/procedure-codding/src/ui/SettingsWindow.cpp" "CMakeFiles/automate.dir/src/ui/SettingsWindow.cpp.obj" "gcc" "CMakeFiles/automate.dir/src/ui/SettingsWindow.cpp.obj.d"

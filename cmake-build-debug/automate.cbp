@@ -121,9 +121,6 @@
 		<Unit filename="D:/Projects/procedure-codding/src/Field.cpp">
 			<Option target="automate"/>
 		</Unit>
-		<Unit filename="D:/Projects/procedure-codding/src/Main.cpp">
-			<Option target="automate"/>
-		</Unit>
 		<Unit filename="D:/Projects/procedure-codding/src/Settings.cpp">
 			<Option target="automate"/>
 		</Unit>
