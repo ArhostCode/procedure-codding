@@ -182,8 +182,8 @@ CMakeFiles/automate.dir/src/Button.cpp.obj: ../src/Button.cpp \
 CMakeFiles/automate.dir/src/Field.cpp.obj: ../src/Field.cpp \
   ../headers/Field.h
 
-CMakeFiles/automate.dir/src/GABot.cpp.obj: ../src/GABot.cpp \
-  ../headers/GABot.h \
+CMakeFiles/automate.dir/src/Bot.cpp.obj: ../src/Bot.cpp \
+  ../headers/Bot.h \
   D:/Program\ Files/CLion\ 2022.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/vector \
   D:/Program\ Files/CLion\ 2022.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_algobase.h \
   D:/Program\ Files/CLion\ 2022.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
@@ -339,7 +339,7 @@ CMakeFiles/automate.dir/src/GABot.cpp.obj: ../src/GABot.cpp \
 
 CMakeFiles/automate.dir/src/GACore.cpp.obj: ../src/GACore.cpp \
   ../headers/GACore.h \
-  ../headers/GABot.h \
+  ../headers/Bot.h \
   D:/Program\ Files/CLion\ 2022.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/vector \
   D:/Program\ Files/CLion\ 2022.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_algobase.h \
   D:/Program\ Files/CLion\ 2022.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
@@ -759,7 +759,7 @@ CMakeFiles/automate.dir/src/draw.cpp.obj: ../src/draw.cpp \
   C:/SFML/include/SFML/Graphics/VertexBuffer.hpp \
   ../headers/Field.h \
   ../headers/settings.h \
-  ../headers/GABot.h \
+  ../headers/Bot.h \
   D:/Program\ Files/CLion\ 2022.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iostream \
   D:/Program\ Files/CLion\ 2022.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/istream \
   D:/Program\ Files/CLion\ 2022.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc \
@@ -1050,10 +1050,10 @@ CMakeFiles/automate.dir/src/engine.cpp.obj: ../src/engine.cpp \
   C:/SFML/include/SFML/Graphics/VertexBuffer.hpp \
   ../headers/Field.h \
   ../headers/settings.h \
-  ../headers/GABot.h \
+  ../headers/Bot.h \
   ../headers/GACore.h \
   ../headers/values.h \
-  ../headers/GABot.h \
+  ../headers/Bot.h \
   ../headers/GACore.h \
   ../headers/values.h \
   D:/Program\ Files/CLion\ 2022.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/future \
@@ -1729,7 +1729,7 @@ CMakeFiles/automate.dir/src/input.cpp.obj: ../src/input.cpp \
   C:/SFML/include/SFML/Graphics/VertexBuffer.hpp \
   ../headers/Field.h \
   ../headers/settings.h \
-  ../headers/GABot.h \
+  ../headers/Bot.h \
   ../headers/GACore.h \
   ../headers/values.h \
   ../headers/settings_window.h \
@@ -2379,7 +2379,7 @@ D:/Program\ Files/CLion\ 2022.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/incl
 
 D:/Program\ Files/CLion\ 2022.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/gthr.h:
 
-../headers/GABot.h:
+../headers/Bot.h:
 
 D:/Program\ Files/CLion\ 2022.2/bin/mingw/x86_64-w64-mingw32/include/pthread.h:
 
@@ -2583,7 +2583,7 @@ D:/Program\ Files/CLion\ 2022.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/incl
 
 D:/Program\ Files/CLion\ 2022.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_bvector.h:
 
-../src/GABot.cpp:
+../src/Bot.cpp:
 
 D:/Program\ Files/CLion\ 2022.2/bin/mingw/x86_64-w64-mingw32/include/rpcndr.h:
 

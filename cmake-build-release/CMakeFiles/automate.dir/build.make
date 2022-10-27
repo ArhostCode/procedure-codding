@@ -158,20 +158,20 @@ CMakeFiles/automate.dir/src/settings.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/automate.dir/src/settings.cpp.s"
 	"D:\Program Files\CLion 2022.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Code\procedure-codding\src\settings.cpp -o CMakeFiles\automate.dir\src\settings.cpp.s
 
-CMakeFiles/automate.dir/src/GABot.cpp.obj: CMakeFiles/automate.dir/flags.make
-CMakeFiles/automate.dir/src/GABot.cpp.obj: CMakeFiles/automate.dir/includes_CXX.rsp
-CMakeFiles/automate.dir/src/GABot.cpp.obj: ../src/GABot.cpp
-CMakeFiles/automate.dir/src/GABot.cpp.obj: CMakeFiles/automate.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Code\procedure-codding\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/automate.dir/src/GABot.cpp.obj"
-	"D:\Program Files\CLion 2022.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/automate.dir/src/GABot.cpp.obj -MF CMakeFiles\automate.dir\src\GABot.cpp.obj.d -o CMakeFiles\automate.dir\src\GABot.cpp.obj -c D:\Code\procedure-codding\src\GABot.cpp
+CMakeFiles/automate.dir/src/Bot.cpp.obj: CMakeFiles/automate.dir/flags.make
+CMakeFiles/automate.dir/src/Bot.cpp.obj: CMakeFiles/automate.dir/includes_CXX.rsp
+CMakeFiles/automate.dir/src/Bot.cpp.obj: ../src/Bot.cpp
+CMakeFiles/automate.dir/src/Bot.cpp.obj: CMakeFiles/automate.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Code\procedure-codding\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/automate.dir/src/Bot.cpp.obj"
+	"D:\Program Files\CLion 2022.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/automate.dir/src/Bot.cpp.obj -MF CMakeFiles\automate.dir\src\Bot.cpp.obj.d -o CMakeFiles\automate.dir\src\Bot.cpp.obj -c D:\Code\procedure-codding\src\Bot.cpp
 
-CMakeFiles/automate.dir/src/GABot.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/automate.dir/src/GABot.cpp.i"
-	"D:\Program Files\CLion 2022.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Code\procedure-codding\src\GABot.cpp > CMakeFiles\automate.dir\src\GABot.cpp.i
+CMakeFiles/automate.dir/src/Bot.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/automate.dir/src/Bot.cpp.i"
+	"D:\Program Files\CLion 2022.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Code\procedure-codding\src\Bot.cpp > CMakeFiles\automate.dir\src\Bot.cpp.i
 
-CMakeFiles/automate.dir/src/GABot.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/automate.dir/src/GABot.cpp.s"
-	"D:\Program Files\CLion 2022.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Code\procedure-codding\src\GABot.cpp -o CMakeFiles\automate.dir\src\GABot.cpp.s
+CMakeFiles/automate.dir/src/Bot.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/automate.dir/src/Bot.cpp.s"
+	"D:\Program Files\CLion 2022.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Code\procedure-codding\src\Bot.cpp -o CMakeFiles\automate.dir\src\Bot.cpp.s
 
 CMakeFiles/automate.dir/src/GACore.cpp.obj: CMakeFiles/automate.dir/flags.make
 CMakeFiles/automate.dir/src/GACore.cpp.obj: CMakeFiles/automate.dir/includes_CXX.rsp
@@ -226,7 +226,7 @@ automate_OBJECTS = \
 "CMakeFiles/automate.dir/src/input.cpp.obj" \
 "CMakeFiles/automate.dir/src/Field.cpp.obj" \
 "CMakeFiles/automate.dir/src/settings.cpp.obj" \
-"CMakeFiles/automate.dir/src/GABot.cpp.obj" \
+"CMakeFiles/automate.dir/src/Bot.cpp.obj" \
 "CMakeFiles/automate.dir/src/GACore.cpp.obj" \
 "CMakeFiles/automate.dir/src/settings_window.cpp.obj" \
 "CMakeFiles/automate.dir/src/Button.cpp.obj"
@@ -240,7 +240,7 @@ automate.exe: CMakeFiles/automate.dir/src/draw.cpp.obj
 automate.exe: CMakeFiles/automate.dir/src/input.cpp.obj
 automate.exe: CMakeFiles/automate.dir/src/Field.cpp.obj
 automate.exe: CMakeFiles/automate.dir/src/settings.cpp.obj
-automate.exe: CMakeFiles/automate.dir/src/GABot.cpp.obj
+automate.exe: CMakeFiles/automate.dir/src/Bot.cpp.obj
 automate.exe: CMakeFiles/automate.dir/src/GACore.cpp.obj
 automate.exe: CMakeFiles/automate.dir/src/settings_window.cpp.obj
 automate.exe: CMakeFiles/automate.dir/src/Button.cpp.obj

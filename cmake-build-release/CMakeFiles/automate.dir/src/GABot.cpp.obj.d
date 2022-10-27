@@ -1,6 +1,6 @@
-CMakeFiles/automate.dir/src/GABot.cpp.obj: \
- D:\Code\procedure-codding\src\GABot.cpp \
- D:/Code/procedure-codding/headers/GABot.h \
+CMakeFiles/automate.dir/src/Bot.cpp.obj: \
+ D:\Code\procedure-codding\src\Bot.cpp \
+ D:/Code/procedure-codding/headers/Bot.h \
  D:/Program\ Files/CLion\ 2022.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/vector \
  D:/Program\ Files/CLion\ 2022.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_algobase.h \
  D:/Program\ Files/CLion\ 2022.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \

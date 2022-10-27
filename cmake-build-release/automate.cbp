@@ -98,7 +98,7 @@
 		<Unit filename="D:/Code/procedure-codding/headers/Field.h">
 			<Option target="automate"/>
 		</Unit>
-		<Unit filename="D:/Code/procedure-codding/headers/GABot.h">
+		<Unit filename="D:/Code/procedure-codding/headers/Bot.h">
 			<Option target="automate"/>
 		</Unit>
 		<Unit filename="D:/Code/procedure-codding/headers/GACore.h">
@@ -122,7 +122,7 @@
 		<Unit filename="D:/Code/procedure-codding/src/Field.cpp">
 			<Option target="automate"/>
 		</Unit>
-		<Unit filename="D:/Code/procedure-codding/src/GABot.cpp">
+		<Unit filename="D:/Code/procedure-codding/src/Bot.cpp">
 			<Option target="automate"/>
 		</Unit>
 		<Unit filename="D:/Code/procedure-codding/src/GACore.cpp">
